@@ -1,0 +1,19 @@
+{
+  "table_id": "6.7.11",
+  "bnbc_reference": "Table 6.7.11",
+  "title": ": Height to Thickness Ratio of Free Standing Wall",
+  "part": 6,
+  "chapter": 7,
+  "columns": [
+    "length to engage all wythes.",
+    "The portion of the wall ties within the"
+  ],
+  "rows": [
+    [
+      "length to engage all wythes.",
+      "The portion of the wall ties within the"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nDesign Wind Pressure, N/m2\nHeight to Thickness Ratio\nUp to 300\n600\n900\n10\n7\n5\n4\nNote: Height is to be taken from 150 mm below ground level or top\nof footing/ foundation block, whichever is higher, and up to the top\nedge of the wall.\nChapter 7\n7.4.5.1\nMulti-wythe Walls\nAll wythes shall be bonded by grout or tied together by corrosion resistant wall\nties or joint reinforcement as follows:\n(a) Wall Ties in Cavity Wall Construction: Wall ties shall be of sufficient\nlength to engage all wythes.  The"
+}

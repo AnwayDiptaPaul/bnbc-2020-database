@@ -1,0 +1,11 @@
+{
+  "table_id": "6.12.2",
+  "bnbc_reference": "Table 6.12.2",
+  "title": ": Minimum Values of Yield Strength and Effective Modulus for Steel",
+  "part": 6,
+  "chapter": 12,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nMeshes and Bars Recommended for Design\nStrength and\nEffective Modulus\nWoven\nSquare\nMesh\nWelded\nSquare\nMesh\nHexa-\nGonal\nMesh\nExpanded\nMetal\nMesh\nLongitu-\ndinal\nBars\nYield\nStrength\n%'  N/mm2\n450\n450\n310\n310\n410\nEffective\nModulus\n;\u0001\u0002<\u0013\u0007\u001f=\n(N/mm2)\n138000\n200000\n104000\n138000\n200000\n;\u0001\u0002<\u0014\u0002>\n(N/mm2)\n165000\n200000\n69000\n69000\n-"
+}

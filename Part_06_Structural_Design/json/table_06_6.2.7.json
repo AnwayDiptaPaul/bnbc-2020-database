@@ -1,0 +1,11 @@
+{
+  "table_id": "6.2.7",
+  "bnbc_reference": "Table 6.2.7",
+  "title": ": Live Load Element Factor, }~~",
+  "part": 6,
+  "chapter": 2,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nElement\n}~~*\nInterior columns\nExterior columns without cantilever slabs\n4\n4\nEdge columns with cantilever slabs\n3\nCorner columns with cantilever slabs\nEdge beams without cantilever slabs\nInterior beams\n2\n2\n2\nChapter 2\nAll other members not identified including:\n Edge beams with cantilever slabs\n Cantilever beams\n One-way slabs\n Two-way slabs\n Members without provisions for continuous shear transfer\nnormal to their span\n1\n*In lieu of the preceding values, 0BB is permitted to be calculated."
+}

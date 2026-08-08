@@ -1,0 +1,11 @@
+{
+  "table_id": "6.10.14.",
+  "bnbc_reference": "Table 6.10.14.",
+  "title": "(b) For high-strength bolts, common bolts, and threaded anchor rods with cut, ground or",
+  "part": 6,
+  "chapter": 10,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nrolled threads, the maximum range of tensile stress on the net tensile area from applied\naxial load and moment plus load due to prying action shall not exceed the design stress\nrange computed using Eq. 6.10.276. The factor \u0019\b shall be taken as\n3.9 × 108 (as for stress category E’). The threshold stress, FTH shall be taken as\n48 MPa (as for stress category D). The net tensile area is given by Eq. 6.10.283.\n«\n˜ (\u0011\u0002 −0.9382H)\u0015\n(6.10.283)\nWhere,\nH = pitch, mm per thread\n\u0011\u0002 = the nominal diameter (b"
+}

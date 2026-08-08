@@ -1,0 +1,19 @@
+{
+  "table_id": "6.6.4",
+  "bnbc_reference": "Table 6.6.4",
+  "title": ": Distribution of Total Factored Static Moment,",
+  "part": 6,
+  "chapter": 6,
+  "columns": [
+    "M",
+    "in an End Span"
+  ],
+  "rows": [
+    [
+      "M",
+      "in an End Span"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\no\nM    in an End Span\nMoments\nExterior edge\nunrestrained\nSlab with\nbeams\nbetween all\nsupports\nSlab without beams between\ninterior supports\nExterior\nedge fully\nrestrained\nWithout edge\nbeam\nWith edge\nbeam\nInterior negative\nfactored moment\n0.75\n0.70\n0.70\n0.70\n0.65\nPositive factored\nmoment\n0.63\n0.57\n0.52\n0.50\n0.35\nExterior negative\nfactored moment\n0\n0.16\n0.26\n0.30\n0.65\n6.5.6.3.4\nNegative moment sections shall be designed to resist the larger of the\ntwo interior negative factored moments determined "
+}

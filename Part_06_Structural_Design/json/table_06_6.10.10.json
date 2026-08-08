@@ -1,0 +1,19 @@
+{
+  "table_id": "6.10.10",
+  "bnbc_reference": "Table 6.10.10",
+  "title": ", MPa",
+  "part": 6,
+  "chapter": 10,
+  "columns": [
+    "W",
+    "= the required shear stress, MPa"
+  ],
+  "rows": [
+    [
+      "per unit area, W",
+      "."
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nW\r   = the required shear stress, MPa\nThe available shear stress of the fastener shall equal or exceed the required shear strength\nper unit area, W\r .\nChapter 10"
+}

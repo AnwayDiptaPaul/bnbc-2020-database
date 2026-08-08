@@ -1,0 +1,11 @@
+{
+  "table_id": "6.9.5",
+  "bnbc_reference": "Table 6.9.5",
+  "title": ": Tensile Strength and Elongation of Cold Drawn Wire",
+  "part": 6,
+  "chapter": 9,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nDiameter of wire\n(mm)\nMinimum tensile\nstrength (N/mm2)\nMinimum elongation\n(percent)\n3\n4\n5\n650\n600\n550\n2.0\n2.5\n3.0\n9.17\nExternal Post-Tensioning"
+}

@@ -1,0 +1,11 @@
+{
+  "table_id": "6.2.24",
+  "bnbc_reference": "Table 6.2.24",
+  "title": ":  Damping Coefficient, BD  or BM",
+  "part": 6,
+  "chapter": 2,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nEffective Damping, βD or βM a, b (%)\nBD or BM\n≤ 2\n0.8\n5\n1.0\n10\n1.2\n20\n1.5\n30\n1.7\n40\n1.9\n≥ 50\n2.0\na\nThe damping coefficient shall be based on the effective damping of the isolation system\nb\nThe damping coefficient shall be based on linear interpolation for effective damping values other\nthan those given.\nChapter 2\nThe maximum displacement of the isolation system, DM, in the most critical direction\nof horizontal response shall be calculated in accordance with the following formula:\n\n\n\n\n\n\n\n"
+}

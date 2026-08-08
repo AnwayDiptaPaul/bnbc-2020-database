@@ -1,0 +1,11 @@
+{
+  "table_id": "6.7.5",
+  "bnbc_reference": "Table 6.7.5",
+  "title": ": Allowable Shear, Bv for Embedded Anchor Bolts for Masonry, kN*",
+  "part": 6,
+  "chapter": 7,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nBent Bar Anchor Bolt Diameter, mm\n\u00171\nr\nN/mm2\n10\n12\n16\n20\n22\n25\n28\n10\n2.0\n3.7\n5.9\n7.9\n8.5\n9.1\n9.6\n12\n2.0\n3.7\n5.9\n8.2\n8.3\n9.5\n10.1\n13\n2.0\n3.7\n5.9\n8.5\n9.2\n9.8\n10.4\n17\n2.0\n3.7\n5.9\n8.5\n9.7\n10.3\n11.0\n20\n2.0\n3.7\n5.9\n8.5\n10.1\n10.8\n11.5\n27\n2.0\n3.7\n5.9\n8.5\n10.9\n11.6\n12.3\n* Values are for bolts of at least ASTM A307 quality. Bolts shall be those specified in Sec 4.3.9.1.\nChapter 7\n"
+}

@@ -1,0 +1,31 @@
+{
+  "table_id": "6.10.3.",
+  "bnbc_reference": "Table 6.10.3.",
+  "title": "10.6.1",
+  "part": 6,
+  "chapter": 10,
+  "columns": [
+    "The design flexural strength,{\u0002\u0017\u000b, and the allowable flexural strength,\u0017",
+    "Ω\u0002"
+  ],
+  "rows": [
+    [
+      "{\u0002",
+      "= 0.90 (LRFD)"
+    ],
+    [
+      "Ω\u0002",
+      "= 1.67 (ASD)"
+    ],
+    [
+      "\u0019\u0002",
+      "= lateral-torsional buckling modification factor for non-uniform moment diagrams"
+    ],
+    [
+      "\u0015.Ì\" ÝšÁ×\"ÞÁ˜\"ßÁ×\"à J",
+      "— 3.0"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nGeneral Provisions\nThe design flexural strength,{\u0002\u0017\u000b, and the allowable flexural strength,\u0017\u000b Ω\u0002\n⁄\n,shall be\ndetermined as follows:\n(a) For all provisions in this Sec 10.6\n{\u0002  = 0.90 (LRFD)\nΩ\u0002  = 1.67 (ASD)\nAnd, the nominal flexural strength,\u0017\u000b, shall be determined according to Sections\n10.6.2 to 10.6.12.\nChapter 10\n(b) The provisions in this Chapter are based on the assumption that points of support for\nbeams and girders are restrained against rotation about their longitudinal axis.\nThe followi"
+}

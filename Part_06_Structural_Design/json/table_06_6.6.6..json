@@ -1,0 +1,11 @@
+{
+  "table_id": "6.6.6.",
+  "bnbc_reference": "Table 6.6.6.",
+  "title": "Table 6.6.5: Portions of Interior Negative Moments to be resisted by Column Strip",
+  "part": 6,
+  "chapter": 6,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nParameters\n1l/\n2l\n0.5\n1.0\n2.0\nþ\n\u0017!\u0016\n\u0016!\n\u0001 = \"\n75\n75\n75\nþ\n\u0017!\u0016\n\u0016!\n\u0001 ≥!\n90\n75\n45\nNotes: Linear interpolations shall be made between values shown.\nInterpolation function for % of Moment\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n2\n1\n2\n1\n1\n1\n30\n75\nl\nl\nl\nf\na\n"
+}

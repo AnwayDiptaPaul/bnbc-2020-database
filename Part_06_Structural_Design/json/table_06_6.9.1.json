@@ -1,0 +1,11 @@
+{
+  "table_id": "6.9.1",
+  "bnbc_reference": "Table 6.9.1",
+  "title": ": Modulus of Elasticity of Prestressing Steel and Cold Drawn Wire",
+  "part": 6,
+  "chapter": 9,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nType of steel\nModulus of elasticity, Es (kN/mm2)\nPlain/indented cold-drawn wire\n200\nHigh tensile steel bars rolled or heat-treated\n205\nStrands\n195\nChapter 9\n9.5\nServiceability Requirements – Flexural Members\n9.5.1\nStress in Concrete At Transfer\nStresses in concrete immediately after prestress transfer (before time-\ndependent prestress losses occur) are as follows:\n(a) Extreme fiber stress in compression except as permitted in (b) shall not\nexceed 0.60\u0006\u0002g\nr\n(b) Extreme fiber stress in compressio"
+}

@@ -1,0 +1,19 @@
+{
+  "table_id": "6.9.3",
+  "bnbc_reference": "Table 6.9.3",
+  "title": ": Creep Coefficient of Concrete",
+  "part": 6,
+  "chapter": 9,
+  "columns": [
+    "all the permanently applied loads including the prestress.",
+    "Loss due"
+  ],
+  "rows": [
+    [
+      "all the permanently applied loads including the prestress.",
+      "Loss due"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nAge at Loading\nCreep coefficient\n7 days\n2.2\n28 days\n1.6\n1 year\n1.1\nChapter 9\n(c) The ultimate creep strain estimated as above does not include the elastic strain.\nFor the calculation of deformation at some stage before the total creep is\nreached, it may be assumed that 50 percent of the total creep takes place in\nthe first month after loading and about 75 percent of the total creep takes\nplace in the first six months after loading. For post-tensioning the creep\ncoefficients shall be taken as 80"
+}

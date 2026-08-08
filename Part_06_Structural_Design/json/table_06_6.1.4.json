@@ -1,0 +1,11 @@
+{
+  "table_id": "6.1.4",
+  "bnbc_reference": "Table 6.1.4",
+  "title": ", the design forces determined",
+  "part": 6,
+  "chapter": 2,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nfrom Section 2.5.7 shall be increased 25 percent for connections of diaphragms\nto vertical elements and to collectors and for connections of collectors to the\nvertical elements. Collectors and their connections also shall be designed for\nthese increased forces unless they are designed for the load combinations with\noverstrength factor of Section 2.5.5.4, in accordance with Section 2.5.13.4."
+}

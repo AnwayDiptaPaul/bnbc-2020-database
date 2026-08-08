@@ -1,0 +1,11 @@
+{
+  "table_id": "6.7.13.",
+  "bnbc_reference": "Table 6.7.13.",
+  "title": "Table 6.7.13: Values of the Modulus of Rupture, \u0017\u001a",
+  "part": 6,
+  "chapter": 7,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nType of Masonry\nFully Grouted\nPartially Grouted\nSolid Masonry\n0.17\u001e\u0006fr ≤0.65 N/mmq\nNot allowed\nHollow Unit Masonry\n0.33\u001e\u0006fr ≤1.2 N/mmq\n0.21\u001e\u0006fr ≤0.65 N/mmq\n7.7.2\nDesign of Shear Walls\nBased on ultimate strength design, the procedures described below may be used\nas an alternative to the procedure specified in Sec 7.6 for the design of\nreinforced hollow unit masonry shear walls. Provisions for quality control\nduring construction of the shear wall are specified in Sec 7.3.4\n7.7.2.1\nRequired streng"
+}

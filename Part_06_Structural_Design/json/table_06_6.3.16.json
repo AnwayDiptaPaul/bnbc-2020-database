@@ -1,0 +1,11 @@
+{
+  "table_id": "6.3.16",
+  "bnbc_reference": "Table 6.3.16",
+  "title": ": Ratio of Group and Single Plie Shaft Resistance",
+  "part": 6,
+  "chapter": 3,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nCentre to Centre Shaft\nSpacing for In-line\nLoading\nRatio of Lateral Resistance of\nShaft in Group to Single Shaft\n8B\n1.00\n6B\n0.70\n4B\n0.40\n3B\n0.25\nChapter 3\nCyclic Loading\nThe effects of traffic, wind, and other non-seismic cyclic loading on the load-\ndeformation behavior of laterally loaded drilled shafts shall be considered during\ndesign. Analysis of drilled shafts subjected to cyclic loading may he considered in\nthe COM624 analysis (Reese et. al., 1984).\nCombined Axial and Lateral Loading\nThe "
+}

@@ -1,0 +1,19 @@
+{
+  "table_id": "6.6.2",
+  "bnbc_reference": "Table 6.6.2",
+  "title": ", Chapter 6.",
+  "part": 6,
+  "chapter": 9,
+  "columns": [
+    "yf",
+    "in strength computations."
+  ],
+  "rows": [
+    [
+      "yf",
+      "in strength computations."
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\n9.7.3\nAdditional long-term deflection of prestressed concrete members shall\nbe computed taking into account stresses in concrete and steel under sustained\nload and including effects of creep and shrinkage of concrete and relaxation of\nsteel.\n9.8\nFlexural Strength\n9.8.1\nDesign moment strength of flexural members shall be computed by the\nstrength methods of the Code. For prestressing steel,\nps\nf\nshall be substituted for\nyf  in strength computations.\nChapter 9\n9.8.2\nAs an alternative to a more acc"
+}

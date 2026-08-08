@@ -1,0 +1,11 @@
+{
+  "table_id": "6.10.2.",
+  "bnbc_reference": "Table 6.10.2.",
+  "title": "Members such as single angles, double angles and WT sections shall have connections",
+  "part": 6,
+  "chapter": 10,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nproportioned such that U is equal to or greater than 0.60. Alternatively, a lesser value of U\nis permitted if these tension members are designed for the effect of eccentricity in\naccordance with Sections 10.8.1.2 or 10.8.2.\n10.4.4\nBuilt-Up Members\nFor limitations on the longitudinal spacing of connectors between elements in continuous\ncontact consisting of a plate and a shape or two plates, Sec10.10.3.5.\nEither perforated cover plates or tie plates without lacing are permitted to be used on the"
+}

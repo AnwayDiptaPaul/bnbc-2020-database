@@ -1,0 +1,11 @@
+{
+  "table_id": "6.12.3",
+  "bnbc_reference": "Table 6.12.3",
+  "title": ": Recommended Design Values of the Global Efficiency Factor of",
+  "part": 6,
+  "chapter": 12,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nReinforcement for a Member in Uniaxial Tension or Bending\nGlobal\nEfficiency\nFactor\nWoven\nSquare\nMesh\nWelded\nSquare\nMesh\nHexagonal\nMesh\nExpanded\nMetal\nMesh\nLongitudi\nnal Bars\nLongitudinal, ,\u001b\n0.50\n0.50\n0.45\n0.65\n1\nTransverse ,\u0014\n0.50\n0.50\n0.30\n0.20\n0\nAt 45o, ,- = 45\n0.35\n0.35\n0.30\n0.30\n0.70"
+}

@@ -1,0 +1,19 @@
+{
+  "table_id": "6.11.12.",
+  "bnbc_reference": "Table 6.11.12.",
+  "title": "Table 6.11.12: Reduction Factor for Concentrated Loads in the Vicinity of Supports",
+  "part": 6,
+  "chapter": 11,
+  "columns": [
+    "Note :",
+    "For intermediate distances, factor may be obtained by linear interpolation."
+  ],
+  "rows": [
+    [
+      "Note :",
+      "For intermediate distances, factor may be obtained by linear interpolation."
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nDistance of Load from the Nearest\nSupport\nLSD or\nLess\n2D\n2.5D\n3D or More\nReduction factor\n0.6\n0.4\n0.2\nNo\nReduction\nNote :  For intermediate distances, factor may be obtained by linear interpolation."
+}

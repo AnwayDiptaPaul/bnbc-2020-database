@@ -1,0 +1,19 @@
+{
+  "table_id": "6.7.19",
+  "bnbc_reference": "Table 6.7.19",
+  "title": ": Grouting Limitations",
+  "part": 6,
+  "chapter": 7,
+  "columns": [
+    "Masonry",
+    "(mm)"
+  ],
+  "rows": [
+    [
+      "Masonry",
+      "(mm)"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nGrout\nType\nGrout pour\nMaximum\nHeight (m)\nMinimum Dimensions of the Total Clear Areas\nwithin Grout Spaces and Cells\nMulti-wythe\nMasonry  (mm)\nHollow Unit\nMasonry (mm )\nFine\n0.30\n1.50\n2.40\n3.65\n7.30\n20\n40\n40\n40\n50\n4050\n4050\n4075\n4575\n7575\nCoarse\n0.30\n1.50\n2.40\n3.65\n7.30\n40\n50\n50\n60\n75\n4075\n6075\n7575\n7575\n75100\nChapter 7"
+}

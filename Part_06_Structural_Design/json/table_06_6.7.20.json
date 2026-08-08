@@ -1,0 +1,11 @@
+{
+  "table_id": "6.7.20",
+  "bnbc_reference": "Table 6.7.20",
+  "title": ": Comparison between confined masonry and RC frame construction",
+  "part": 6,
+  "chapter": 7,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nComponent\nConfined masonry construction\nRC frame construction\nGravity and\nlateral load-\nresisting\nsystem\nMasonry walls are the main load\nbearing elements and are expected\nto resist both gravity and lateral\nloads. Confining elements (tie-\nbeams\nand\ntie-columns)\nare\nsignificantly smaller in size than\nRC beams and columns.\nRC frames resist both gravity\nand lateral loads through\ntheir relatively large beams,\ncolumns,\nand\ntheir\nconnections. Masonry in fills\nare not load-bearing walls.\nFoundation\ncon"
+}

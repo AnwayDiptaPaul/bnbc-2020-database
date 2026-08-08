@@ -1,0 +1,19 @@
+{
+  "table_id": "6.10.7",
+  "bnbc_reference": "Table 6.10.7",
+  "title": ": Minimum Size of Fillet Welds",
+  "part": 6,
+  "chapter": 10,
+  "columns": [
+    "Weld,[a]",
+    "(mm)"
+  ],
+  "rows": [
+    [
+      "[a]",
+      "Leg dimension of fillet welds. Single pass welds must be used."
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nMaterial Thickness of Thinner\nPart Joined (mm)\nMinimum Size of Fillet\nWeld,[a]  (mm)\nTo 6 inclusive\n3\nOver 6 to 13\n5\nOver 13 to 19\n6\nOver 19\n8\n[a]   Leg dimension of fillet welds. Single pass welds must be used.\nNote: See Sec 10.10.2.2.2 for maximum size of fillet welds.\nThe maximum size of fillet welds of connected parts shall be:\nAlong edges of material less than 6 mm thick, not greater than the thickness of the material.\nAlong edges of material 6 mm or more in thickness, not greater than the"
+}

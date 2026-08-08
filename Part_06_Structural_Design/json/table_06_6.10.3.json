@@ -1,0 +1,11 @@
+{
+  "table_id": "6.10.3",
+  "bnbc_reference": "Table 6.10.3",
+  "title": ": Section Types and Selection Table for the Application of Sub-sections",
+  "part": 6,
+  "chapter": 10,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nof Sec 10.6\nSub-\nSection in\nthis\nprovision\nCross Section\nFlange\nSlenderness\nWeb\nSlenderness\nLimit\nStates\n10.6.2\nC\nC\nY,LTB\n10.6.3\nNC, S\nC\nLTB, FLB\n10.6.4\nC, NC, S\nC, NC\nY, LTB,\nFLB, TFY\n10.6.5\nC, NC, S\nS\nY, LTB,\nFLB, TFY\n10.6.6\nC, NC, S\nN/A\nY, FLB\n10.6.7\nC, NC, S\nC, NC\nY, FLB,\nWLB\n10.6.8\nN/A\nN/A\nY, LB\nChapter 10\nSub-\nSection in\nthis\nprovision\nCross Section\nFlange\nSlenderness\nWeb\nSlenderness\nLimit\nStates\n10.6.9\nC, NC, S\nN/A\nY, LTB,\nFLB\n10.6.10\nN/A\nN/A\nY, LTB,\nLLB\n10.6.11\nN/A\nN/A\nY, LTB\n10.6.12\nUn"
+}

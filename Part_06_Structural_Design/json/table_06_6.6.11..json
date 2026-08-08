@@ -1,0 +1,19 @@
+{
+  "table_id": "6.6.11.",
+  "bnbc_reference": "Table 6.6.11.",
+  "title": "Table 6.6.8: Coefficients for Negative Moments in Slabs †",
+  "part": 6,
+  "chapter": 6,
+  "columns": [
+    "Where,",
+    "w = total uniform dead plus live load per unit area"
+  ],
+  "rows": [
+    [
+      "Where,",
+      "w = total uniform dead plus live load per unit area"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\np{,h!U = \u0001 {,h!U\u001b‡{q\np1,h!U = \u0001 1,h!U\u001b‡1\nq\nWhere,  w = total uniform dead plus live load per unit area\nSpan\nRatio,\nb\na\nl\nl\nm \nMoment\nCoefficient\nCase 1\nCase 2\nCase 3\nCase 4\nCase 5\nCase 6\nCase 7\nCase 8\nCase 9\n1.00\n\u0001{,h!U\n0.045\n0.050\n0.075\n0.071\n0.033\n0.061\n\u00011,h!U\n0.045\n0.076\n0.050\n0.071\n0.061\n0.033\n0.95\n\u0001{,h!U\n0.050\n0.055\n0.079\n0.075\n0.038\n0.065\n\u00011,h!U\n0.041\n0.072\n0.045\n0.067\n0.056\n0.029\n0.90\n\u0001{,h!U\n0.055\n0.060\n0.080\n0.079\n0.043\n0.068\n\u00011,h!U\n0.037\n0.070\n0.040\n0.062\n0.052\n0.025\n0.85\n\u0001{,h!U\n0.060"
+}

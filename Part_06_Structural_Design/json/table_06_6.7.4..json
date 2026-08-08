@@ -1,0 +1,19 @@
+{
+  "table_id": "6.7.4.",
+  "bnbc_reference": "Table 6.7.4.",
+  "title": "Table 6.7.4: Allowable Shear Stress for Reinforced Masonry Shear Walls, 4",
+  "part": 6,
+  "chapter": 7,
+  "columns": [
+    "’0Ó",
+    "\u0006fr"
+  ],
+  "rows": [
+    [
+      "’0Ó",
+      "\u0006fr"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nMasonry Wall\nM/Vd\nFv, N/mm2\nMaximum Allowable N/mm2\nMasonry\ntaking all\nshear\n« 1\n1\n36 Ì4 −p\n’0Ó \u001e\u0006fr\nÌ0.4 −0.2 p\n’0Ó\n≥ 1\n0.083\u001e\u0006fr\n0.17\nReinforcement\ntaking all\nshear\n« 1\n1\n24 Ì4 −p\n’0Ó \u001e\u0006fr\nÌ0.6 −0.2 M\nVdÓ\n≥ 1\n0.125\u001e\u0006fr\n0.37\n7.3.6\nAllowable Stresses in Reinforcement\n(a) Tensile Stress\n(i) Deformed bars,\nƒ\u0004 = 0.5\u0006\b    ≤165  N/mm2\n(6.7.7)\n(ii)   Ties, anchors and plain bars,\nƒ\u0004 = 0.4\u0006\b    ≤135  N/mm2\n(6.7.8)\n(b) Compressive Stress\n(i) Deformed bars in columns and shear walls,\nƒ\u0004\u0002 = 0.4\u0006\b    ≤165"
+}

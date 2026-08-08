@@ -1,0 +1,19 @@
+{
+  "table_id": "6.2.5.2",
+  "bnbc_reference": "Table 6.2.5.2",
+  "title": "of Chapter 6.",
+  "part": 6,
+  "chapter": 13,
+  "columns": [
+    "J.3.1.2 Definitions:",
+    "The definitions given in Chapter 6 shall apply to this section. In"
+  ],
+  "rows": [
+    [
+      "their working load counterparts < and",
+      "respectively."
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nJ.3 Columns\nSections J.3.1 to J.3.5 as detailed hereunder along with the Sec 6.3, except Sections\n6.3.2.1 to 6.3.2.7, and 6.3.3, shall form part of this section. In case of any conflict, the\nprovisions of this Appendix B shall prevail.\nIn using the provisions of Sec 6.3, the word factored shall be read as working or working\nload whichever is applicable.\nJ.3.1\nDefinitions and Notation\nJ.3.1.1 Notation\nAll the notation used this Section are provided in Sec. J.1.1. For other symbols used in\nthis s"
+}

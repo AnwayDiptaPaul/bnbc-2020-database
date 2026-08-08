@@ -1,0 +1,11 @@
+{
+  "table_id": "6.7.2",
+  "bnbc_reference": "Table 6.7.2",
+  "title": ": Flexural Tension, Ft",
+  "part": 6,
+  "chapter": 7,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nMasonry\nNormal to Bed Joints\nN/mm2\nNormal to Head Joints\nN/mm2\nSolid Units\n0.20\n0.40\nHollow Units\n0.12\n0.25\n"
+}

@@ -1,0 +1,11 @@
+{
+  "table_id": "6.3.9",
+  "bnbc_reference": "Table 6.3.9",
+  "title": "b: Modulus of Subgrade Reaction (k) for Cohesive Soils",
+  "part": 6,
+  "chapter": 3,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nSoil Characteristic\nModulus of Subgrade\nReaction, k (kN/m3)\nConsistency\nUnconfined Compressive Strength (kN/m2)\nStiff\nVery Stiff\nHard\n100 to 200\n200 to 400\n400 and over\n27000\n27000 to 54000\n54000 to 108000\n* The values apply to a square plate 300 mm x 300 mm. The above values are based\non the assumption that the average loading intensity does not exceed half the ultimate\nbearing capacity.\n3.9.6.4\nCritical section for moment\nExternal moment on any section of a footing shall be determined by pass"
+}

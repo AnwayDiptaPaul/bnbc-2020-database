@@ -1,0 +1,11 @@
+{
+  "table_id": "6.7.8",
+  "bnbc_reference": "Table 6.7.8",
+  "title": ": Effective Length of Walls",
+  "part": 6,
+  "chapter": 7,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nSupport Condition\nEffective Length\nWhere a wall is continuous and is supported by cross wall and there is no\nopening within a distance of H/8 from the face of cross wall. OR,\nWhere a wall is continuous and is supported by pier/buttresses\nconforming to Sec 7.4.3.3 (c).\n0.8‹\nWhere a wall is supported by cross wall at one end and continuous with\ncross wall at other end. OR,\nWhere a wall is supported by pier/buttresses at one end and continuous\nwith pier/buttresses at other end conforming to Sec 7."
+}

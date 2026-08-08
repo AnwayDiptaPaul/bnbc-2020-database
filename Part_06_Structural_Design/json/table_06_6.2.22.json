@@ -1,0 +1,11 @@
+{
+  "table_id": "6.2.22",
+  "bnbc_reference": "Table 6.2.22",
+  "title": ": Coefficients ø0 and 10 for Architectural Components",
+  "part": 6,
+  "chapter": 2,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nArchitectural Component or Element\nø0a\n10\nInterior Nonstructural Walls and Partitions\nPlain (unreinforced) masonry walls\nAll other walls and partitions\n1.0\n1.0\n1.5\n2.5\nCantilever Elements (Unbraced or braced to structural frame below its\ncenter of mass) Parapets and cantilever interior nonstructural walls\nChimneys and stacks where laterally braced or supported by the structural\nframe\n2.5\n2.5\n2.5\n2.5\nCantilever Elements (Braced to structural frame above its center of mass)\nParapets\nChimneys and "
+}

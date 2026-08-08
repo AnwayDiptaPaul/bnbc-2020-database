@@ -1,0 +1,11 @@
+{
+  "table_id": "6.2.18",
+  "bnbc_reference": "Table 6.2.18",
+  "title": ":  Seismic Design Category of Buildings",
+  "part": 6,
+  "chapter": 2,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nSite\nClass\nOccupancy Category I, II and III\nOccupancy Category IV\nZone 1 Zone 2 Zone 3 Zone 4 Zone 1 Zone 2 Zone 3 Zone 4\nSA\nB\nC\nC\nD\nC\nD\nD\nD\nSB\nB\nC\nD\nD\nC\nD\nD\nD\nSC\nB\nC\nD\nD\nC\nD\nD\nD\nSD\nC\nD\nD\nD\nD\nD\nD\nD\nSE, S1, S2\nD\nD\nD\nD\nD\nD\nD\nD"
+}

@@ -1,0 +1,11 @@
+{
+  "table_id": "6.11.13",
+  "bnbc_reference": "Table 6.11.13",
+  "title": ": Modification Factor KË for Bearing Stresses",
+  "part": 6,
+  "chapter": 11,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nLength of bearing in mm\n15\n25\n40\n50\n75\n100\n150 or more\nModification factor KË\n1.67\n1.40\n1.25\n1.20\n1.13\n1.10\n1.00"
+}

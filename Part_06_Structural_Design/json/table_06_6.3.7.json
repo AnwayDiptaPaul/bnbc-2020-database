@@ -1,0 +1,19 @@
+{
+  "table_id": "6.3.7",
+  "bnbc_reference": "Table 6.3.7",
+  "title": ": Presumptive Values of Bearing Capacity for Lightly Loaded Structures*",
+  "part": 6,
+  "chapter": 3,
+  "columns": [
+    "(soil shall",
+    "include the groups SW, SP, SM, SC)"
+  ],
+  "rows": [
+    [
+      "Fine sand; loose & dry",
+      "(soil shall include the groups SW, SP)"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nSoil\nType\nSoil Description\nSafe Bearing\nCapacity, kPa\n1\nSoft Rock or Shale\n440\n2\nGravel, sandy gravel, silty sandy gravel; very dense and\noffer high resistance to penetration during excavation (soil\nshall include the groups GW, GP, GM, GC)\n400**\n3\nSand (other than fine sand), gravelly sand, silty sand; dry\n(soil shall  include the groups SW, SP, SM, SC)\n200**\n4\nFine sand; loose & dry  (soil shall include the groups SW, SP)\n100**\nChapter 3\n5\nSilt, clayey silt, clayey sand; dry lumps which can be"
+}

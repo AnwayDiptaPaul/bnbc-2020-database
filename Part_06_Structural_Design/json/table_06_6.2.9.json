@@ -1,0 +1,11 @@
+{
+  "table_id": "6.2.9",
+  "bnbc_reference": "Table 6.2.9",
+  "title": "based on building and structure categories listed in Sec 1.2.4.",
+  "part": 6,
+  "chapter": 2,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\n2.4.6\nExposure\nFor each wind direction considered, the upwind exposure category shall be based on\nground surface roughness that is determined from natural topography, vegetation,\nand constructed facilities."
+}

@@ -1,0 +1,11 @@
+{
+  "table_id": "6.9.4",
+  "bnbc_reference": "Table 6.9.4",
+  "title": ":  Friction Coefficients (K and µ) for Post-Tensioned Tendons",
+  "part": 6,
+  "chapter": 9,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nTypes of Tendons\nCoefficient,\nK per meter\nCurvature coefficient,\nµ per radian\nGrouted Tendons in\nmetal sheathing\nWire tendons\n0.0033-0.0049\n0.15-0.25\nHigh-strength\nbars\n0.0003-0.0020\n0.08-0.30\n7-wire strand\n0.0016-0.0066\n0.15-0.25\nUnbonded\ntendons\nMastic\ncoated\nWire tendons\n0.0033-0.0066\n0.05-0.15\n7-wire strand\n0.0033-0.0066\n0.05-0.15\nPre-greased Wire tendons\n0.001-0.0066\n0.05-0.15\n7-wire strand\n0.001-0.0066\n0.05-0.15\nChapter 9\n9.6.9\nValues of wobble and curvature friction coefficients used in "
+}

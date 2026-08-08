@@ -1,0 +1,11 @@
+{
+  "table_id": "6.11.7",
+  "bnbc_reference": "Table 6.11.7",
+  "title": ": Preferred Cut Sizes of Structural Timbers for Partition Framing and",
+  "part": 6,
+  "chapter": 11,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nCovering, and for Centering\nThickness\n(mm)\nWidth (mm)\n10\n40\n50\n60\n80\n-\n-\n-\n-\n-\n15\n40\n50\n60\n80\n100\n-\n-\n-\n-\n20\n40\n50\n60\n80\n100\n120\n160\n200\n-\n25\n40\n50\n60\n80\n100\n120\n160\n200\n240\n30\n40\n50\n60\n80\n100\n120\n160\n200\n240\n40\n40\n-\n60\n80\n100\n120\n160\n200\n240\n50\n-\n50\n-\n80\n100\n120\n160\n200\n240\n60\n-\n-\n60\n80\n100\n120\n160\n200\n240\n80\n-\n-\n-\n80\n100\n120\n160\n200\n240\n11.4.7\nSuitability"
+}

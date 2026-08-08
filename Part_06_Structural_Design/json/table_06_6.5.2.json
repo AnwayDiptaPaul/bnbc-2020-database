@@ -1,0 +1,19 @@
+{
+  "table_id": "6.5.2",
+  "bnbc_reference": "Table 6.5.2",
+  "title": ": Requirements for Normal Weight Aggregate Concrete Exposed to",
+  "part": 6,
+  "chapter": 4,
+  "columns": [
+    "by",
+    "Weight"
+  ],
+  "rows": [
+    [
+      "by",
+      "Weight"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nSulphate Containing Solutions\nSulphate\nExposure\nWater Soluble\nSulphate (SO4)\nin Soil, percent\nby  Weight\nSulphate (SO4)\nin Water, (ppm)\nCement Type1\nMaximum\nWater Cement\nRatio, by\nWeight\nNegligible\n0.00-0.10\n0 – 150\n-\n-\nModerate2\n0.10-0.20\n150 -1500\nOther than CEM I and\nB type\n0.50\nSevere\n0.20-2.00\n1500 -10,000\nOther than CEM-I and\nB type\n0.45\nVery\nsevere\nOver 2.00\nOver 10,000\nOther than CEM-I and\nB type\n0.45\nNotes: Pozzolan that has been determined by test or service record to improve sulphate"
+}

@@ -1,0 +1,19 @@
+{
+  "table_id": "6.2.5.1",
+  "bnbc_reference": "Table 6.2.5.1",
+  "title": "of Chapter 6 shall apply for",
+  "part": 6,
+  "chapter": 13,
+  "columns": [
+    "immediate deflection shall be computed with the modulus of elasticity 84",
+    "for concrete as"
+  ],
+  "rows": [
+    [
+      "considered, by the factor",
+      "p∆ as determined from Eq (6.2.4) of Chapter 6."
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nbeams and one-way slabs not supporting or attached to partitions or other construction\nlikely to be damaged by large deflections, unless computation of deflection indicates a\nlesser thickness can be used without adverse effects.\nJ.2.10.3 Deflections, when computed, shall be those which occur immediately on\napplication of the load evaluated by the usual methods or formulae for elastic deflections,\nconsidering the effects of cracking and reinforcement on member stiffness.\nJ.2.10.4 Unless stiffnes"
+}

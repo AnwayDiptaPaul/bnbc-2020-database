@@ -1,0 +1,19 @@
+{
+  "table_id": "6.7.3",
+  "bnbc_reference": "Table 6.7.3",
+  "title": ": Tension Normal to Head Joints, Ft",
+  "part": 6,
+  "chapter": 7,
+  "columns": [
+    "ƒM = 0.083\u001e\u0006fr",
+    "≤0.25 N/mm2"
+  ],
+  "rows": [
+    [
+      "(ii) When shear reinforcement",
+      "is designed to take entire shear force"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nMasonry\nClay Units\nN/mm2\nConcrete Units\nN/mm2\nSolid Units\n0.35\n0.40\nHollow Units\n0.22\n0.25\n(d) Reinforcing Bond Stress, u\nPlain Bars:\n0.30 N/mm2\nDeformed Bars: 1.0 N/mm2\n(e) Shear Stress for Flexural Members, ƒM\n(i) When no shear reinforcement is used\nƒM = 0.083\u001e\u0006fr    ≤0.25 N/mm2\n(6.7.4)\n(ii) When shear reinforcement  is designed to take entire shear force\nƒM = 0.25\u001e\u0006fr    ≤0.75  N/mm2\n(6.7.5)\n(f) Shear Stress for Shear Walls, ƒM\n(i) Unreinforced masonry\nFor clay units:\nƒM = 0.025\u001e\u0006fr    ≤0.40"
+}

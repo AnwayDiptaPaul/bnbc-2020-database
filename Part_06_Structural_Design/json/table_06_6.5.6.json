@@ -1,0 +1,11 @@
+{
+  "table_id": "6.5.6",
+  "bnbc_reference": "Table 6.5.6",
+  "title": ": Maximum Permissible Water Cement Ratios for Concrete when",
+  "part": 6,
+  "chapter": 4,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nStrength Data from Field Experience or Trail Mixers are not Available\nSpecified Compressive\nStrength*, \u0017\u0019\n′\nN/mm2\nAbsolute Water Cement Ratio by Weight\nConcrete other than air-\nentrained\nAir-entrained\nconcrete\n17\n20\n25\n30\n35\n0.66\n0.60\n0.50\n0.40\n**\n0.54\n0.49\n0.39\n**\n**\n* 28 day strength.  With most materials, water cement ratios shown will provide\naverage strengths greater than that required in Sec 5.6.2.2.\n**  For strengths above 30 N/mm2 (25 N/mm2 for air entrained concrete) concrete\nproportio"
+}

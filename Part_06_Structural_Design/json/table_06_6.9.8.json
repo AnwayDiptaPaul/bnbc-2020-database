@@ -1,0 +1,19 @@
+{
+  "table_id": "6.9.8",
+  "bnbc_reference": "Table 6.9.8",
+  "title": ": Standard Values of Structural Factors",
+  "part": 6,
+  "chapter": 9,
+  "columns": [
+    "Structural factor",
+    "fõ"
+  ],
+  "rows": [
+    [
+      "Structural factor",
+      "fõ"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nPerformance item\nStructural factor  fõ\nStructural safety\n1.0 ῀1.2\nServiceability (User comfort)\n1.0\nDurability (fatigue resistance)\n1.0\nChapter 9\nDivision B: Material and Construction (Sections 9.19 To 9.21)\n9.19\nMaterials"
+}

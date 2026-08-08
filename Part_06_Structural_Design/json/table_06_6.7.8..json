@@ -1,0 +1,23 @@
+{
+  "table_id": "6.7.8.",
+  "bnbc_reference": "Table 6.7.8.",
+  "title": "7.4.2.4",
+  "part": 6,
+  "chapter": 7,
+  "columns": [
+    "(a)",
+    "Solid Walls: The effective thickness of solid walls, faced walls or"
+  ],
+  "rows": [
+    [
+      "(b)",
+      "Solid Walls with Raked Mortar Joints: The effective thickness of solid"
+    ],
+    [
+      "calculation of ℎr/›",
+      "ratio shall be determined as follows:"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nEffective thickness\nThe effective thickness of walls and columns for use in the calculation of\nslenderness ratio, shall be defined as follows:\n(a)  Solid Walls: The effective thickness of solid walls, faced walls or\ngrouted walls shall be the specified thickness of the wall.\nChapter 7\n(b)  Solid Walls with Raked Mortar Joints: The effective thickness of solid\nwalls with raked mortar joints shall be the minimum thickness\nmeasured at the joint.\n(c) Cavity Walls: When both limbs of a cavity wall a"
+}

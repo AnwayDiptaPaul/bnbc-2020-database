@@ -1,0 +1,11 @@
+{
+  "table_id": "6.7.9",
+  "bnbc_reference": "Table 6.7.9",
+  "title": ": Thickness and Spacing of Stiffening Walls",
+  "part": 6,
+  "chapter": 7,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nThickness of Load\nBearing Wall to be\nStiffened\n(mm)\nHeight of\nStorey not to\nExceed\n(m)\nStiffening Wall *\nThickness not less than\nMaximum\nspacing\n(m)\n1 to 3 storeys\n(mm)\n4 and 5 storeys\n(mm)\n100\n200\n300\nabove 300\n3.2\n3.2\n3.4\n5.0\n100\n100\n100\n100\n-\n200\n200\n200\n4.5\n6.0\n8.0\n8.0\n* Storey height and maximum spacing as given are centre to centre dimensions."
+}

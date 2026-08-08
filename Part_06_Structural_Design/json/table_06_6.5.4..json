@@ -1,0 +1,19 @@
+{
+  "table_id": "6.5.4.",
+  "bnbc_reference": "Table 6.5.4.",
+  "title": "However, the test records shall meet the requirements (i)",
+  "part": 6,
+  "chapter": 4,
+  "columns": [
+    "and (ii) of (a) above",
+    "and represent only a single record of consecutive"
+  ],
+  "rows": [
+    [
+      "and (ii) of (a) above",
+      "and represent only a single record of consecutive"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nand (ii) of (a) above  and represent only a single record of consecutive\ntests that span a period of not less than 45 calendar days.\n"
+}

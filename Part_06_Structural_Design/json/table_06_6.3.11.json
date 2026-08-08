@@ -1,0 +1,11 @@
+{
+  "table_id": "6.3.11",
+  "bnbc_reference": "Table 6.3.11",
+  "title": ": Guidance on the Minimum Reinforcing Steel for Bored Cast-in-place Piles",
+  "part": 6,
+  "chapter": 3,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nPile Diameter\n(mm)\nMain Reinforcement\nLateral (Hoop)\nReinforcement\nBar Size\n(mm)\nNo. of Bars\nBar Size (mm)\nPitch (mm)\n400\n16\n6\n8\n200\n450\n16\n6\n8\n200\n500\n16\n8\n8\n250\n600\n16\n8\n8\n250\n750\n16\n10\n10\n300\n900\n16\n10\n10\n300\n16\n12\n10\n300\n16\n12\n10\n300\n20\n12\n10\n400\n20\n12\n10\n400\n20\n16\n10\n400\n25\n16\n12\n500\nNotes:\n(a)\nYield strength of steel = 420 MN/m2\n(b)\nThe above guidelines are for “build-ability” only: They are not\nappropriate Where:\n(i)\nPiles are required to resist any applied tensile or bending forces- the"
+}

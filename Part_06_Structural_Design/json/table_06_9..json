@@ -1,0 +1,19 @@
+{
+  "table_id": "9.",
+  "bnbc_reference": "Table 9.",
+  "title": "Except for MWFRS's at the roof consisting of moment resisting frames, the total horizontal shear shall not  be less",
+  "part": 6,
+  "chapter": 2,
+  "columns": [
+    "Figure 6.2.6",
+    "(Contd.) External pressure coefficients, Cp main wind force resisting system -"
+  ],
+  "rows": [
+    [
+      "Figure 6.2.6",
+      "(Contd.) External pressure coefficients, Cp main wind force resisting system -"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nthan that determined by neglecting wind forces on roof surfaces.\n#For roof slopes greater than 80°, use Cp = 0.8\nFigure 6.2.6  (Contd.) External pressure coefficients, Cp main wind force resisting system -\nMethod 2 (All Heights)\nChapter 2\nEnclosed, Partially Enclosed Buildings and Structures: Domed Roofs\nNotes:\n1. Two load cases shall be considered:\nCase A. Cp values between A and B and between B and C shall be determined by linear\ninterpolation along arcs on the dome parallel to the wind direc"
+}

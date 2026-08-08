@@ -1,0 +1,11 @@
+{
+  "table_id": "6.7.18",
+  "bnbc_reference": "Table 6.7.18",
+  "title": ": Minimum thickness of Walls in High Wind Region",
+  "part": 6,
+  "chapter": 7,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nType of Wall\nMinimum Thickness (mm)\nUnreinforced grouted brick wall\nReinforced exterior bearing wall\nUnreinforced hollow and solid masonry wall\nInterior nonbearing wall\n250\n200\n200\n150\n7.9.7\nFloor and Roof Systems\nFloors and roofs of all masonry structures shall be adequately anchored with\nthe wall it supports to resist lateral and uplift forces due to wind specified in Sec\n2.4 of this Part.\n7.9.8\nLateral Force Resistance"
+}

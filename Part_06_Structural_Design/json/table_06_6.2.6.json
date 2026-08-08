@@ -1,0 +1,11 @@
+{
+  "table_id": "6.2.6",
+  "bnbc_reference": "Table 6.2.6",
+  "title": ": Minimum Live Loads on Supports and Connections of Equipment due",
+  "part": 6,
+  "chapter": 2,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nto Impact(1)\nEquipment or Machinery\nAdditional load due to impact as percentage\nof static load including self-weight\nVertical\nHorizontal\n1. Lifts, hoists and related\noperating machinery\n100%\nNot applicable\n2. Light machinery (shaft or\nmotor driven)\n20%\nNot applicable\n3. Reciprocating machinery, or\npower driven units.\n50%\nNot applicable\n4. Hangers supporting floors and\nbalconies\n33%\nNot applicable\n5. Cranes :\n(a) Electric overhead\ncranes\n25% of\nmaximum\nwheel load\n(i) Transverse to the rail :\n20%"
+}

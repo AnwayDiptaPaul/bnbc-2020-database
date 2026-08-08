@@ -1,0 +1,19 @@
+{
+  "table_id": "6.7.7",
+  "bnbc_reference": "Table 6.7.7",
+  "title": ": Allowable Tension, 7\b for Embedded Anchor Bolts for Masonry, kN1",
+  "part": 6,
+  "chapter": 7,
+  "columns": [
+    "Bent Bar Anchor Bolt",
+    "Diameter, mm"
+  ],
+  "rows": [
+    [
+      "Bent Bar Anchor Bolt",
+      "Diameter, mm"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nBent Bar Anchor Bolt  Diameter, mm\n6\n10\n12\n16\n20\n22\n25\n28\n1.5\n3.5\n6.2\n9.8\n14.1\n19.2\n25.1\n31.8\n1 Values are for bolts of at least ASTM A307 quality. Bolts shall be those specified in Sec 7.3.9.\n7.3.9.5\nCombined shear and tension\nAnchor bolts subjected to combined shear and tension shall be designed in\naccordance with the formula given below:\n1#\n9# +\n1÷\n9÷ ≤1.00\n(6.7.21)\n7.3.9.6\nMinimum edge distance, ‡1!\nThe minimum value of  ‡1! measured from the edge of the masonry parallel to\nthe anchor bolt "
+}

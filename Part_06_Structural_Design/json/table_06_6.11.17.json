@@ -1,0 +1,11 @@
+{
+  "table_id": "6.11.17",
+  "bnbc_reference": "Table 6.11.17",
+  "title": ": Bolt Diameter Factor",
+  "part": 6,
+  "chapter": 11,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nDiameter of Bolt\n(mm)\nDiameter Factor\n(dr)\nDiameter of Bolt\n(mm)\nDiameter Factor\n(dr)\n6\n5.70\n20\n3.05\n10\n3.60\n22\n3.00\n12\n3.35\n25\n2.90\n16\n3.15\nChapter 11"
+}
