@@ -26,6 +26,32 @@ The goal is to make the codebase easier to:
 
 ---
 
+## Local PDF Viewer
+
+This repository now includes a polished [`index.html`](index.html) entry page for reading the bundled PDFs directly in the browser with PDF.js rendering.
+
+The viewer provides:
+
+* A searchable list of the BNBC PDF files in this folder
+* Fast switching between the index and each part
+* A built-in PDF.js canvas viewer for reading pages directly in the page
+* Page navigation and zoom controls
+* Support for opening a local PDF from your computer or dropping one into the page
+
+Open `index.html` from a local server or editor preview, then choose any part from the sidebar.
+
+If you open the page directly from disk and PDF.js cannot load the bundled files, start a simple local server in this folder and open the page through `http://localhost` instead:
+
+```bash
+python3 -m http.server 8000
+```
+
+Then visit `http://localhost:8000/index.html` in your browser.
+
+The PDF.js runtime is loaded from a CDN, so the viewer also needs network access the first time it loads the script.
+
+---
+
 ## Repository Structure
 
 The repository follows the major divisions of BNBC 2020:

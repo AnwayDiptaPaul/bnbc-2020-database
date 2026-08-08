@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BNBC 2020 PDF Viewer</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #07111f;
+      --bg-alt: #0c1a2f;
+      --panel: rgba(10, 18, 33, 0.8);
+      --panel-strong: rgba(13, 24, 43, 0.96);
+      --line: rgba(168, 190, 222, 0.14);
+      --line-strong: rgba(168, 190, 222, 0.26);
+      --text: #edf3fb;
+      --muted: #a9b9cf;
+      --accent: #4fd1c5;
+      --accent-2: #f7b955;
+      --accent-3: #78a6ff;
+      --shadow: 0 22px 60px rgba(0, 0, 0, 0.36);
+      --radius-xl: 28px;
+      --radius-lg: 20px;
+      --radius-md: 14px;
+      --sidebar-width: 330px;
+      --viewer-min-height: 76vh;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      min-height: 100%;
+      background:
+        radial-gradient(circle at top left, rgba(79, 209, 197, 0.18), transparent 28%),
+        radial-gradient(circle at top right, rgba(120, 166, 255, 0.2), transparent 24%),
+        radial-gradient(circle at 30% 30%, rgba(247, 185, 85, 0.12), transparent 22%),
+        linear-gradient(135deg, #050b14 0%, #07111f 44%, #0a1628 100%);
+      color: var(--text);
+      font-family: "Trebuchet MS", "Lucida Grande", "Segoe UI", sans-serif;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image: linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+      background-size: 32px 32px;
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,0.8), transparent 95%);
+      opacity: 0.55;
+    }
+
+    .shell {
+      width: min(1500px, calc(100vw - 32px));
+      margin: 16px auto;
+      display: grid;
+      grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+      gap: 16px;
+      min-height: calc(100vh - 32px);
+      position: relative;
+      z-index: 1;
+    }
+
+    .sidebar,
+    .viewer {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      backdrop-filter: blur(18px);
+      box-shadow: var(--shadow);
+    }
+
+    .sidebar {
+      border-radius: var(--radius-xl);
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      min-height: 100%;
+    }
+
+    .brand {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand h1 {
+      margin: 0;
+      font-family: "Georgia", "Times New Roman", serif;
+      font-size: clamp(1.75rem, 2vw, 2.4rem);
+      letter-spacing: 0.02em;
+      line-height: 1.02;
+    }
+
+    .brand p {
+      margin: 10px 0 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    .badge {
+      align-self: flex-start;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(79, 209, 197, 0.12);
+      border: 1px solid rgba(79, 209, 197, 0.24);
+      color: #d8fffb;
+      font-size: 0.79rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .stat {
+      padding: 14px;
+      border-radius: var(--radius-md);
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--line);
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 1.25rem;
+      margin-bottom: 4px;
+    }
+
+    .stat span {
+      color: var(--muted);
+      font-size: 0.82rem;
+      line-height: 1.4;
+    }
+
+    .search {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .search input {
+      width: 100%;
+      border: 1px solid var(--line-strong);
+      background: rgba(8, 15, 28, 0.82);
+      color: var(--text);
+      border-radius: 16px;
+      padding: 14px 16px;
+      outline: none;
+      font-size: 0.96rem;
+      transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .search input:focus {
+      border-color: rgba(79, 209, 197, 0.6);
+      box-shadow: 0 0 0 4px rgba(79, 209, 197, 0.12);
+    }
+
+    .search small {
+      color: var(--muted);
+      line-height: 1.45;
+    }
+
+    .pdf-list {
+      display: grid;
+      gap: 8px;
+      overflow: auto;
+      padding-right: 4px;
+      margin-right: -4px;
+      max-height: min(58vh, 580px);
+    }
+
+    .pdf-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      width: 100%;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.03);
+      color: var(--text);
+      border-radius: 16px;
+      padding: 13px 14px;
+      text-align: left;
+      cursor: pointer;
+      transition: transform 0.16s ease, border-color 0.16s ease, background 0.16s ease;
+    }
+
+    .pdf-item:hover,
+    .pdf-item:focus-visible {
+      transform: translateY(-1px);
+      border-color: rgba(120, 166, 255, 0.5);
+      background: rgba(120, 166, 255, 0.1);
+      outline: none;
+    }
+
+    .pdf-item.active {
+      background: linear-gradient(135deg, rgba(79, 209, 197, 0.14), rgba(120, 166, 255, 0.14));
+      border-color: rgba(79, 209, 197, 0.44);
+    }
+
+    .pdf-meta {
+      min-width: 0;
+    }
+
+    .pdf-meta strong {
+      display: block;
+      font-size: 0.96rem;
+      letter-spacing: 0.01em;
+    }
+
+    .pdf-meta span {
+      display: block;
+      margin-top: 3px;
+      color: var(--muted);
+      font-size: 0.8rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .pdf-chip {
+      flex: 0 0 auto;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.06);
+      color: #dbe8ff;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      font-size: 0.74rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .help {
+      margin-top: auto;
+      padding: 16px;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.035);
+      color: var(--muted);
+      line-height: 1.55;
+      font-size: 0.92rem;
+    }
+
+    .notice {
+      padding: 14px 16px;
+      border-radius: var(--radius-lg);
+      border: 1px solid rgba(247, 185, 85, 0.26);
+      background: rgba(247, 185, 85, 0.08);
+      color: #ffe8ba;
+      line-height: 1.5;
+      font-size: 0.92rem;
+    }
+
+    .notice strong {
+      display: block;
+      margin-bottom: 6px;
+      color: #fff0cc;
+    }
+
+    .viewer {
+      border-radius: var(--radius-xl);
+      padding: 18px;
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr);
+      gap: 16px;
+      min-height: 100%;
+    }
+
+    .toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 14px 16px;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--line);
+      background: rgba(8, 15, 28, 0.72);
+      flex-wrap: wrap;
+    }
+
+    .title-block {
+      min-width: 0;
+    }
+
+    .title-block h2 {
+      margin: 0;
+      font-family: "Georgia", "Times New Roman", serif;
+      font-size: clamp(1.15rem, 1.6vw, 1.55rem);
+      line-height: 1.15;
+    }
+
+    .title-block p {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      max-width: 70ch;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .button,
+    .ghost {
+      appearance: none;
+      border: 1px solid var(--line-strong);
+      background: rgba(255, 255, 255, 0.04);
+      color: var(--text);
+      border-radius: 14px;
+      padding: 11px 14px;
+      font: inherit;
+      font-size: 0.92rem;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: transform 0.16s ease, border-color 0.16s ease, background 0.16s ease;
+    }
+
+    .button:hover,
+    .ghost:hover,
+    .button:focus-visible,
+    .ghost:focus-visible {
+      transform: translateY(-1px);
+      border-color: rgba(247, 185, 85, 0.5);
+      background: rgba(247, 185, 85, 0.12);
+      outline: none;
+    }
+
+    .button.primary {
+      border-color: rgba(79, 209, 197, 0.4);
+      background: linear-gradient(135deg, rgba(79, 209, 197, 0.16), rgba(120, 166, 255, 0.12));
+    }
+
+    .viewer-stage {
+      position: relative;
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      border: 1px solid var(--line);
+      background:
+        radial-gradient(circle at top right, rgba(120, 166, 255, 0.08), transparent 38%),
+        radial-gradient(circle at bottom left, rgba(79, 209, 197, 0.08), transparent 34%),
+        rgba(5, 10, 20, 0.9);
+      min-height: var(--viewer-min-height);
+    }
+
+    .viewer-controls {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      padding: 12px 14px;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--line);
+      background: rgba(8, 15, 28, 0.68);
+    }
+
+    .control-group {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .control-pill {
+      padding: 9px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text);
+      font-size: 0.88rem;
+      letter-spacing: 0.02em;
+      white-space: nowrap;
+    }
+
+    .viewer-stage {
+      display: grid;
+      place-items: center;
+      padding: 16px;
+    }
+
+    .pdf-canvas-wrap {
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      display: grid;
+      place-items: start center;
+      gap: 0;
+      position: relative;
+      padding: 10px;
+    }
+
+    .pdf-canvas {
+      width: 100%;
+      max-width: 100%;
+      background: #ffffff;
+      box-shadow: 0 24px 80px rgba(0, 0, 0, 0.34);
+      border-radius: 6px;
+    }
+
+    .pdf-loading {
+      position: absolute;
+      inset: 16px;
+      display: grid;
+      place-items: center;
+      border-radius: 22px;
+      background: rgba(4, 8, 16, 0.7);
+      color: var(--text);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.18s ease;
+      z-index: 2;
+    }
+
+    .pdf-loading.visible {
+      opacity: 1;
+    }
+
+    .pdf-loading small {
+      display: block;
+      margin-top: 8px;
+      color: var(--muted);
+    }
+
+    .dropzone {
+      position: absolute;
+      inset: 14px;
+      border-radius: 22px;
+      border: 1px dashed rgba(255, 255, 255, 0.15);
+      display: grid;
+      place-items: center;
+      color: var(--muted);
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.04));
+      text-align: center;
+      padding: 28px;
+      transition: opacity 0.18s ease, transform 0.18s ease, border-color 0.18s ease;
+      pointer-events: none;
+      opacity: 0;
+      transform: scale(0.99);
+    }
+
+    .dropzone.visible {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    .dropzone strong {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--text);
+      font-size: 1.08rem;
+    }
+
+    .dropzone p {
+      margin: 0;
+      max-width: 48ch;
+      line-height: 1.6;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    @media (max-width: 1080px) {
+      .shell {
+        grid-template-columns: 1fr;
+      }
+
+      .pdf-list {
+        max-height: 320px;
+      }
+    }
+
+    @media (max-width: 720px) {
+      :root {
+        --radius-xl: 22px;
+        --radius-lg: 16px;
+      }
+
+      .shell {
+        width: min(100vw, calc(100vw - 16px));
+        margin: 8px auto;
+      }
+
+      .sidebar,
+      .viewer {
+        padding: 16px;
+      }
+
+      .stats {
+        grid-template-columns: 1fr;
+      }
+
+      .toolbar {
+        align-items: stretch;
+      }
+
+      .actions,
+      .brand {
+        width: 100%;
+      }
+
+      .viewer-stage {
+        padding: 12px;
+      }
+
+      .pdf-canvas-wrap {
+        padding: 6px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <aside class="sidebar" aria-label="PDF library">
+      <section class="brand">
+        <div>
+          <div class="badge">BNBC 2020 Library</div>
+          <h1>Readable, local-first PDF navigation</h1>
+          <p>Use the list on the left to open any BNBC part, search through the library, or drop in another PDF from your computer.</p>
+        </div>
+      </section>
+
+      <section class="stats" aria-label="Repository summary">
+        <div class="stat">
+          <strong id="pdfCount">11</strong>
+          <span>PDF files detected in this folder</span>
+        </div>
+        <div class="stat">
+          <strong id="activeCount">0</strong>
+          <span>Filtered results in the current view</span>
+        </div>
+      </section>
+
+      <section class="search">
+        <label class="sr-only" for="filterInput">Filter PDFs</label>
+        <input id="filterInput" type="search" placeholder="Filter by name, part, or keyword..." autocomplete="off">
+        <small>Select a document, then read it in the viewer on the right. The page remembers the chosen file in the URL hash.</small>
+      </section>
+
+      <section>
+        <div class="pdf-list" id="pdfList" role="listbox" aria-label="Available PDFs"></div>
+      </section>
+
+      <section class="help">
+        <strong style="color: var(--text);">Tips</strong><br>
+        Open this file from a local server or use your editor's preview. The built-in viewer works best with the PDFs that already live beside this page.
+      </section>
+
+      <section class="notice" id="protocolNotice" hidden>
+        <strong>Local file mode</strong>
+        Some browsers restrict PDF embedding when a page is opened directly from disk. If the viewer does not render a PDF, start a local server and reopen this page.
+      </section>
+    </aside>
+
+    <section class="viewer" aria-label="PDF viewer area">
+      <header class="toolbar">
+        <div class="title-block">
+          <h2 id="currentTitle">BNBC 2020 Index</h2>
+          <p id="currentSubtitle">BNBC_2020_Index.pdf</p>
+        </div>
+        <div class="actions">
+          <button class="ghost" id="prevButton" type="button">Prev Doc</button>
+          <button class="ghost" id="nextButton" type="button">Next Doc</button>
+          <label class="button primary" for="fileInput">Open PDF</label>
+          <a class="ghost" id="openTabLink" href="#" target="_blank" rel="noopener">Open in new tab</a>
+          <input id="fileInput" class="sr-only" type="file" accept="application/pdf">
+        </div>
+      </header>
+
+      <div class="viewer-controls" aria-label="PDF page controls">
+        <div class="control-group">
+          <button class="ghost" id="pagePrevButton" type="button">Previous page</button>
+          <button class="ghost" id="pageNextButton" type="button">Next page</button>
+          <span class="control-pill" id="pageLabel">Page 1 / 1</span>
+        </div>
+        <div class="control-group">
+          <button class="ghost" id="zoomOutButton" type="button">Zoom out</button>
+          <button class="ghost" id="zoomInButton" type="button">Zoom in</button>
+          <button class="ghost" id="fitWidthButton" type="button">Fit width</button>
+          <span class="control-pill" id="zoomLabel">100%</span>
+        </div>
+      </div>
+
+      <div class="viewer-stage" id="viewerStage">
+        <div class="pdf-canvas-wrap" id="canvasWrap">
+          <canvas id="pdfCanvas" class="pdf-canvas"></canvas>
+        </div>
+        <div class="pdf-loading" id="pdfLoading">
+          <div>
+            <strong>Loading PDF.js viewer</strong>
+            <small>Rendering the current document and page.</small>
+          </div>
+        </div>
+        <div class="dropzone" id="dropzone" aria-hidden="true">
+          <div>
+            <strong>Drop a PDF to preview it here</strong>
+            <p>The page can read any local PDF you drag into the window, without changing the library on disk.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const pdfs = [
+      { file: "BNBC_2020_Index.pdf", title: "BNBC 2020 Index", part: "Index" },
+      { file: "BNBC_2020_Part-1.pdf", title: "Part 1 - Scope and Definitions", part: "Part 1" },
+      { file: "BNBC_2020_Part-2.pdf", title: "Part 2 - Administration and Enforcement", part: "Part 2" },
+      { file: "BNBC_2020_Part-3.pdf", title: "Part 3 - General Building Requirements", part: "Part 3" },
+      { file: "BNBC_2020_Part-4.pdf", title: "Part 4 - Fire Protection", part: "Part 4" },
+      { file: "BNBC_2020_Part-5.pdf", title: "Part 5 - Building Materials", part: "Part 5" },
+      { file: "BNBC_2020_Part-6.pdf", title: "Part 6 - Structural Design", part: "Part 6" },
+      { file: "BNBC_2020_Part-7.pdf", title: "Part 7 - Construction Practices and Safety", part: "Part 7" },
+      { file: "BNBC_2020_Part-8.pdf", title: "Part 8 - Building Services", part: "Part 8" },
+      { file: "BNBC_2020_Part-9.pdf", title: "Part 9 - Alteration and Addition", part: "Part 9" },
+      { file: "BNBC_2020_Part-10.pdf", title: "Part 10 - Signs and Outdoor Display", part: "Part 10" },
+    ];
+
+    const pdfList = document.getElementById("pdfList");
+    const filterInput = document.getElementById("filterInput");
+    const currentTitle = document.getElementById("currentTitle");
+    const currentSubtitle = document.getElementById("currentSubtitle");
+    const openTabLink = document.getElementById("openTabLink");
+    const fileInput = document.getElementById("fileInput");
+    const prevButton = document.getElementById("prevButton");
+    const nextButton = document.getElementById("nextButton");
+    const pagePrevButton = document.getElementById("pagePrevButton");
+    const pageNextButton = document.getElementById("pageNextButton");
+    const zoomOutButton = document.getElementById("zoomOutButton");
+    const zoomInButton = document.getElementById("zoomInButton");
+    const fitWidthButton = document.getElementById("fitWidthButton");
+    const pageLabel = document.getElementById("pageLabel");
+    const zoomLabel = document.getElementById("zoomLabel");
+    const activeCount = document.getElementById("activeCount");
+    const dropzone = document.getElementById("dropzone");
+    const viewerStage = document.getElementById("viewerStage");
+    const totalCount = document.getElementById("pdfCount");
+    const protocolNotice = document.getElementById("protocolNotice");
+    const pdfCanvas = document.getElementById("pdfCanvas");
+    const pdfLoading = document.getElementById("pdfLoading");
+    const canvasWrap = document.getElementById("canvasWrap");
+    const pdfjsAvailable = typeof window.pdfjsLib !== "undefined";
+
+    if (pdfjsAvailable) {
+      pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+    } else {
+      protocolNotice.hidden = false;
+      protocolNotice.innerHTML = "<strong>PDF.js unavailable</strong>The PDF.js runtime did not load, so the viewer cannot render pages right now. Check your network connection and reopen the page.";
+    }
+
+    let currentIndex = 0;
+    let activeBlobUrl = "";
+    let currentPdfDocument = null;
+    let currentPageNumber = 1;
+    let currentScale = 1.12;
+    let currentRenderTask = null;
+    let currentLoadId = 0;
+
+    totalCount.textContent = String(pdfs.length);
+    protocolNotice.hidden = window.location.protocol !== "file:";
+
+    function setLoadingState(isLoading) {
+      pdfLoading.classList.toggle("visible", isLoading);
+    }
+
+    function updatePdfControls() {
+      pageLabel.textContent = currentPdfDocument
+        ? `Page ${currentPageNumber} / ${currentPdfDocument.numPages}`
+        : "Page 0 / 0";
+      zoomLabel.textContent = `${Math.round(currentScale * 100)}%`;
+      pagePrevButton.disabled = !currentPdfDocument || currentPageNumber <= 1;
+      pageNextButton.disabled = !currentPdfDocument || currentPageNumber >= currentPdfDocument.numPages;
+    }
+
+    function fitToWidth(page) {
+      const viewportWidth = Math.max(320, canvasWrap.clientWidth - 24);
+      const view = page.getViewport({ scale: 1 });
+      return viewportWidth / view.width;
+    }
+
+    async function renderCurrentPage() {
+      if (!currentPdfDocument || !pdfjsAvailable) {
+        return;
+      }
+
+      const loadId = currentLoadId;
+      const page = await currentPdfDocument.getPage(currentPageNumber);
+      if (loadId !== currentLoadId) {
+        return;
+      }
+
+      const baseViewport = page.getViewport({ scale: currentScale });
+      const outputScale = window.devicePixelRatio || 1;
+      const context = pdfCanvas.getContext("2d", { alpha: false });
+
+      pdfCanvas.width = Math.floor(baseViewport.width * outputScale);
+      pdfCanvas.height = Math.floor(baseViewport.height * outputScale);
+      pdfCanvas.style.width = `${Math.floor(baseViewport.width)}px`;
+      pdfCanvas.style.height = `${Math.floor(baseViewport.height)}px`;
+
+      if (currentRenderTask) {
+        currentRenderTask.cancel();
+      }
+
+      currentRenderTask = page.render({
+        canvasContext: context,
+        viewport: baseViewport,
+        transform: outputScale !== 1 ? [outputScale, 0, 0, outputScale, 0, 0] : null,
+      });
+
+      try {
+        await currentRenderTask.promise;
+      } catch (error) {
+        if (error?.name !== "RenderingCancelledException") {
+          throw error;
+        }
+      }
+
+      if (loadId === currentLoadId) {
+        updatePdfControls();
+        setLoadingState(false);
+      }
+    }
+
+    async function loadPdfDocument(source, title, subtitle, urlForTab, options = {}) {
+      if (!pdfjsAvailable) {
+        setLoadingState(false);
+        pageLabel.textContent = "PDF.js unavailable";
+        zoomLabel.textContent = "0%";
+        return;
+      }
+
+      const loadId = ++currentLoadId;
+      setLoadingState(true);
+
+      if (currentRenderTask) {
+        currentRenderTask.cancel();
+        currentRenderTask = null;
+      }
+
+      if (currentPdfDocument) {
+        try {
+          await currentPdfDocument.destroy();
+        } catch (error) {
+          console.warn("Failed to destroy previous PDF document", error);
+        }
+      }
+
+      currentPdfDocument = null;
+      currentPageNumber = 1;
+
+      try {
+        const loadingTask = pdfjsLib.getDocument(source);
+        const document = await loadingTask.promise;
+        if (loadId !== currentLoadId) {
+          try {
+            await document.destroy();
+          } catch (error) {
+            console.warn("Failed to destroy stale PDF document", error);
+          }
+          return;
+        }
+
+        currentPdfDocument = document;
+        currentTitle.textContent = title;
+        currentSubtitle.textContent = subtitle;
+        openTabLink.href = urlForTab;
+        if (options.pushHash !== false) {
+          history.replaceState(null, "", `#${encodeURIComponent(subtitle)}`);
+        }
+
+        if (options.fitWidth !== false) {
+          currentScale = fitToWidth(await document.getPage(1));
+        }
+
+        if (currentIndex >= 0) {
+          updateSelectionState();
+        } else {
+          updateCustomSelectionState(title, subtitle, urlForTab);
+        }
+        await renderCurrentPage();
+      } catch (error) {
+        console.error("Failed to load PDF", error);
+        currentPdfDocument = null;
+        setLoadingState(false);
+        pageLabel.textContent = "Unable to load PDF";
+      }
+    }
+
+    function renderList(query = "") {
+      const normalized = query.trim().toLowerCase();
+      pdfList.innerHTML = "";
+
+      const visible = pdfs.filter((entry) => {
+        if (!normalized) {
+          return true;
+        }
+        return [entry.file, entry.title, entry.part].some((value) => value.toLowerCase().includes(normalized));
+      });
+
+      activeCount.textContent = String(visible.length);
+
+      visible.forEach((entry) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "pdf-item";
+        button.setAttribute("role", "option");
+        button.dataset.file = entry.file;
+
+        const meta = document.createElement("span");
+        meta.className = "pdf-meta";
+        meta.innerHTML = `<strong>${entry.title}</strong><span>${entry.file}</span>`;
+
+        const chip = document.createElement("span");
+        chip.className = "pdf-chip";
+        chip.textContent = entry.part;
+
+        button.append(meta, chip);
+        button.addEventListener("click", () => loadPdf(entry.file));
+        pdfList.appendChild(button);
+      });
+
+      syncActiveState();
+    }
+
+    function syncActiveState() {
+      const buttons = pdfList.querySelectorAll(".pdf-item");
+      buttons.forEach((button) => {
+        button.classList.toggle("active", pdfs[currentIndex]?.file === button.dataset.file);
+      });
+    }
+
+    function updateSelectionState() {
+      if (!pdfs[currentIndex]) {
+        return;
+      }
+
+      syncActiveState();
+
+      const current = pdfs[currentIndex];
+      currentTitle.textContent = current.title;
+      currentSubtitle.textContent = current.file;
+      openTabLink.href = currentPdfDocument ? openTabLink.href : "#";
+      prevButton.disabled = currentIndex <= 0;
+      nextButton.disabled = currentIndex >= pdfs.length - 1;
+
+      const activeButton = pdfList.querySelector(`.pdf-item[data-file="${current.file}"]`);
+      if (activeButton) {
+        activeButton.scrollIntoView({ block: "nearest", behavior: "smooth" });
+      }
+    }
+
+    function updateCustomSelectionState(title, subtitle, href) {
+      syncActiveState();
+      currentTitle.textContent = title;
+      currentSubtitle.textContent = subtitle;
+      openTabLink.href = href;
+      prevButton.disabled = true;
+      nextButton.disabled = true;
+    }
+
+    async function loadPdf(fileName, options = {}) {
+      const index = pdfs.findIndex((entry) => entry.file === fileName);
+      if (index === -1) {
+        return;
+      }
+
+      currentIndex = index;
+      if (activeBlobUrl) {
+        URL.revokeObjectURL(activeBlobUrl);
+        activeBlobUrl = "";
+      }
+
+      const src = encodeURI(fileName);
+      hideDropzone();
+      await loadPdfDocument(
+        { url: src },
+        pdfs[index].title,
+        pdfs[index].file,
+        src,
+        options,
+      );
+    }
+
+    async function loadBlobFile(file) {
+      if (activeBlobUrl) {
+        URL.revokeObjectURL(activeBlobUrl);
+      }
+
+      activeBlobUrl = URL.createObjectURL(file);
+      currentIndex = -1;
+      hideDropzone();
+      updateCustomSelectionState(file.name.replace(/\.pdf$/i, ""), file.name, activeBlobUrl);
+      history.replaceState(null, "", `#${encodeURIComponent(file.name)}`);
+      await loadPdfDocument(
+        { data: await file.arrayBuffer() },
+        file.name.replace(/\.pdf$/i, ""),
+        file.name,
+        activeBlobUrl,
+        { pushHash: false, fitWidth: true },
+      );
+    }
+
+    function showDropzone() {
+      dropzone.classList.add("visible");
+    }
+
+    function hideDropzone() {
+      dropzone.classList.remove("visible");
+    }
+
+    function resolveHash() {
+      const fileName = decodeURIComponent(window.location.hash.replace(/^#/, "")).trim();
+      if (!fileName) {
+        return pdfs[0].file;
+      }
+      return pdfs.some((entry) => entry.file === fileName) ? fileName : pdfs[0].file;
+    }
+
+    filterInput.addEventListener("input", (event) => renderList(event.target.value));
+
+    prevButton.addEventListener("click", () => {
+      if (currentIndex > 0) {
+        loadPdf(pdfs[currentIndex - 1].file);
+      }
+    });
+
+    nextButton.addEventListener("click", () => {
+      if (currentIndex < pdfs.length - 1) {
+        loadPdf(pdfs[currentIndex + 1].file);
+      }
+    });
+
+    pagePrevButton.addEventListener("click", async () => {
+      if (currentPdfDocument && currentPageNumber > 1) {
+        currentPageNumber -= 1;
+        await renderCurrentPage();
+      }
+    });
+
+    pageNextButton.addEventListener("click", async () => {
+      if (currentPdfDocument && currentPageNumber < currentPdfDocument.numPages) {
+        currentPageNumber += 1;
+        await renderCurrentPage();
+      }
+    });
+
+    zoomOutButton.addEventListener("click", async () => {
+      if (currentPdfDocument) {
+        currentScale = Math.max(0.5, currentScale - 0.12);
+        await renderCurrentPage();
+      }
+    });
+
+    zoomInButton.addEventListener("click", async () => {
+      if (currentPdfDocument) {
+        currentScale = Math.min(3, currentScale + 0.12);
+        await renderCurrentPage();
+      }
+    });
+
+    fitWidthButton.addEventListener("click", async () => {
+      if (currentPdfDocument) {
+        const page = await currentPdfDocument.getPage(currentPageNumber);
+        currentScale = fitToWidth(page);
+        await renderCurrentPage();
+      }
+    });
+
+    fileInput.addEventListener("change", (event) => {
+      const file = event.target.files?.[0];
+      if (file) {
+        loadBlobFile(file);
+      }
+      event.target.value = "";
+    });
+
+    window.addEventListener("hashchange", () => {
+      loadPdf(resolveHash(), { pushHash: false });
+    });
+
+    viewerStage.addEventListener("dragenter", showDropzone);
+    viewerStage.addEventListener("dragover", (event) => {
+      event.preventDefault();
+      showDropzone();
+    });
+    viewerStage.addEventListener("dragleave", (event) => {
+      if (!viewerStage.contains(event.relatedTarget)) {
+        hideDropzone();
+      }
+    });
+    viewerStage.addEventListener("drop", (event) => {
+      event.preventDefault();
+      const droppedFile = [...event.dataTransfer.files].find((file) => file.type === "application/pdf" || file.name.toLowerCase().endsWith(".pdf"));
+      if (droppedFile) {
+        loadBlobFile(droppedFile);
+      }
+    });
+
+    window.addEventListener("beforeunload", () => {
+      if (activeBlobUrl) {
+        URL.revokeObjectURL(activeBlobUrl);
+      }
+    });
+
+    window.addEventListener("resize", async () => {
+      if (currentPdfDocument) {
+        const page = await currentPdfDocument.getPage(currentPageNumber);
+        currentScale = fitToWidth(page);
+        await renderCurrentPage();
+      }
+    });
+
+    renderList();
+    loadPdf(resolveHash(), { pushHash: false });
+  </script>
+</body>
+</html>
