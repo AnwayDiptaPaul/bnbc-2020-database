@@ -1,0 +1,11 @@
+{
+  "table_id": "3.4.5",
+  "bnbc_reference": "Table 3.4.5",
+  "title": ": Maximum Allowable Lighting Power Density for Different Occupancies",
+  "part": 3,
+  "chapter": 4,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nOccupancy\nMaximum LPD (W/m2)\nE1 and E2\nOffices\n9\nF1 and F2\nRetail/Mercantile\n13\nA5\nHotels\n9\nD1\nHospitals\n11\nA1, A2 and A3\nApartments/residences\n7\nB\nEducational\n11\nAll occupancies\nCovered parking*\n3\nAll occupancies\nOpen/outdoor parking\n1.6\n* LPD for car parks shall calculated from the total lighting power divided\nby the total car park area\n"
+}

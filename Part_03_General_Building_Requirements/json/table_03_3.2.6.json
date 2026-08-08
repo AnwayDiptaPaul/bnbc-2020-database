@@ -1,0 +1,11 @@
+{
+  "table_id": "3.2.6",
+  "bnbc_reference": "Table 3.2.6",
+  "title": ": AZ List of Occupancy Classification",
+  "part": 3,
+  "chapter": 2,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nUse or Occupancy\nBrief Description\nOccupancy\nClass/Sub-class\nA\nAdhesives\nmanufacture\nExcluding manufacture of basic\ncomponents\nG or J depending on\nnature of materials\ninvolved\nAdvertising displays\nmanufacture\nG\nAgricultural machinery\nmanufacture\nIncluding repairs\nG\nChapter 2\nUse or Occupancy\nBrief Description\nOccupancy\nClass/Sub-class\nAgriculture\nWithout nuisance or sales limitation\nH\nAgricultural\nSmall farm house, (limited to storage\nquantity)\nF\nLarge farm house, storage quantity\nunlimited\nH o"
+}

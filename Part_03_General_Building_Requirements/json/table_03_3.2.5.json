@@ -1,0 +1,27 @@
+{
+  "table_id": "3.2.5",
+  "bnbc_reference": "Table 3.2.5",
+  "title": ")",
+  "part": 3,
+  "chapter": 2,
+  "columns": [
+    "**",
+    "The occupancy classification for any project, not included in this list, shall be"
+  ],
+  "rows": [
+    [
+      "i.",
+      "The functional requirements of the unidentified occupancy shall be compared with"
+    ],
+    [
+      "ii.",
+      "If process (i) fails to determine the Occupancy, the project will be referred to the"
+    ],
+    [
+      "iii.",
+      "The decision of Board of Appeal shall be considered as an explanatory material of"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nZ\nZoo structures\nM\n**  The occupancy classification for any project, not included in this list, shall be\ndetermined through the following process:\ni.  The functional requirements of the unidentified occupancy shall be compared with\nthe Occupancy use type, classification, sub-classification categories and\ndescriptions to match with the given occupancies to find the most similar\nOccupancy,\nii.  If process (i) fails to determine the Occupancy, the project will be referred to the\nBoard of Appeal co"
+}

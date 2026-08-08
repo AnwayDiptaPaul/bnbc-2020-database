@@ -1,0 +1,11 @@
+{
+  "table_id": "3.1.9",
+  "bnbc_reference": "Table 3.1.9",
+  "title": ": Minimum Ceiling Heights for Different Occupancies",
+  "part": 3,
+  "chapter": 1,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nOccupancy\nMinimum Ceiling Height\nEducational, Institutional, Health\nCare, Assembly.\n3 m for non-air-conditioned and 2.6 m for air-\nconditioned buildings.\nIndustrial, Storage, Hazardous.\n3.5 m for non-air-conditioned and 3.0 m for air-\nconditioned buildings."
+}

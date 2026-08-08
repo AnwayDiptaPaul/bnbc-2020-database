@@ -1,0 +1,11 @@
+{
+  "table_id": "3.1.12",
+  "bnbc_reference": "Table 3.1.12",
+  "title": ": Dimension of Openings for Different Uses",
+  "part": 3,
+  "chapter": 1,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nSpace\nPercent of Net Floor\nArea\nHabitable rooms such as those used for\nsleeping, living, study, dining etc.\n15\nKitchens*\n18\nNon-habitable spaces such as\nbathrooms, store, staircase and other\nutility\n10\n* Minimum height from the window sill of a kitchen shall be 450mm\nabove cooking range. Air flow on cooking range shall be restricted."
+}
