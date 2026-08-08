@@ -1,0 +1,19 @@
+{
+  "table_id": "2.3.3",
+  "bnbc_reference": "Table 2.3.3",
+  "title": ": Building Classification Based on Height, Floor Area and Occupancy",
+  "part": 2,
+  "chapter": 3,
+  "columns": [
+    "Height of",
+    "Building"
+  ],
+  "rows": [
+    [
+      "Height of",
+      "Building"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nType\nBuilding\nCategory\nHeight of  Building\nFloor Area\nType of\nOccupancy\nI\nUp to 2 Stories or 8 m height (without\nbasement) applicable only for areas\nbeyond the jurisdiction of Development\nAuthority,\nCity\nCorporation\nand\nPourashava\nUp to 250 m2\nA (A1-A2)\nII\nUp to 5 Stories (with or without basement) Up to 1000 m2\nA (A1-A5)\nIII\nUp to 10 stories or 33 m height for\nengineering design and supervision and\nany height for land survey, sub-soil\ninvestigation  and architectural design\nUp to 7500 m2 A, B,"
+}

@@ -1,0 +1,11 @@
+{
+  "table_id": "2.3.1",
+  "bnbc_reference": "Table 2.3.1",
+  "title": ": Drawing Sizes for Permit Applications",
+  "part": 2,
+  "chapter": 3,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nNotation (ISO Standard)\nSize (mm)\nA 0\n841 x 1189\nA 1\n594 x 841\nA 2\n420 x 594\nA 3\n297 x 420\nA 4\n210 x 297\n3.4.4\nOperation and Maintenance of Utility Services\nThe government may undertake works for operation, maintenance, development or\nexecution of any of the following utility services without requiring obtaining permit from\nthe Building Official.\n(a) Railways\n(b) National Highways\n(c) National Waterways\n(d) National Gas grid\n(e) National Power grid\n(f) Major Ports\n(g) Airways and Aerodromes\n(h)"
+}
