@@ -1,0 +1,11 @@
+{
+  "table_id": "10.1.",
+  "bnbc_reference": "Table 10.1.",
+  "title": "Table 10.1.2: Projection of Signs over Public Alleys",
+  "part": 10,
+  "chapter": 1,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nHeight Above Finished Grade (m)\nMaximum Projection (m)\nLess than 4\n4 to 5\nover 5\nNo projection permitted\n0.3\n0.6"
+}

@@ -1,0 +1,19 @@
+{
+  "table_id": "10.2.1.",
+  "bnbc_reference": "Table 10.2.1.",
+  "title": "Table 10.2.1: Type, Size and Thickness of Glass Panels Used in Signs",
+  "part": 10,
+  "chapter": 2,
+  "columns": [
+    "above",
+    "2.30"
+  ],
+  "rows": [
+    [
+      "above",
+      "2.30"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nMaximum Size of Glass Panel\nMinimum\nThickness (mm)\nType of Glass\nAny dimension (m)\nArea (m2)\n0.75\n0.30\n3\nPlain, Plate or Wired\n1.15\n0.45\n5\nPlain, Plate or Wired\n3.65\n2.30\n6\nPlain, Plate or Wired\nabove 3.65\nabove   2.30\n6\nWired Glass\nPlastic of approved type may be used for wall signs in sections not exceeding 20 m2 in\narea.  Plastics sections on wall signs shall be separated 1 m laterally and 2 m vertically.\nApproved plastics of unlimited area may be used on any sign other than wall sign, if\nap"
+}
