@@ -1,0 +1,19 @@
+{
+  "table_id": "8.1.3.",
+  "bnbc_reference": "Table 8.1.3.",
+  "title": "Table 8.1.3: Brightness Ratios between Task, Adjacent Sources and Surroundings",
+  "part": 8,
+  "chapter": 1,
+  "columns": [
+    "For high task brightness",
+    "(above 100"
+  ],
+  "rows": [
+    [
+      "not being used as work",
+      "areas"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nFor high task brightness  (above 100\ncd/m2)\nMaximum ratio between task brightness and\nthe adjacent sources like table tops\n3 to 1\nMaximum ratio between task brightness and\nillumination of the remote areas of the room\nnot being used as work  areas\n10 to 1\nFor low and medium task brightness\n(below 100 cd/m2)\nThe task must be brighter than both the\nbackground and the surroundings; the\nlower the task brightness, the less\ncritical is the relationship.\n1.2.3\nLighting Calculations"
+}

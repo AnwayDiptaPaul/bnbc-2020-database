@@ -1,0 +1,41 @@
+{
+  "table_id": "8.5.3",
+  "bnbc_reference": "Table 8.5.3",
+  "title": ":  Sizes of Overflow Pipes for Storage Tank",
+  "part": 8,
+  "chapter": 5,
+  "columns": [
+    "Q",
+    "≤",
+    "190"
+  ],
+  "rows": [
+    [
+      "190 < Q",
+      "≤",
+      "570"
+    ],
+    [
+      "570 < Q",
+      "≤",
+      "760"
+    ],
+    [
+      "760 < Q",
+      "≤",
+      "1500"
+    ],
+    [
+      "1500 < Q",
+      "≤",
+      "2650"
+    ],
+    [
+      "2650 < Q",
+      "≤",
+      "3800"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nMaximum Discharge (Q) of\nWater Supply Pipe into Storage Tank (l/min)\nDiameter of\nOverflow Pipe (mm)\nQ  ≤  190\n190 < Q  ≤  570\n570 < Q  ≤  760\n760 < Q  ≤  1500\n1500 < Q  ≤  2650\n2650 < Q  ≤  3800\n3800 < Q\n50\n63\n75\n100\n125\n150\n200\nChapter 5"
+}

@@ -1,0 +1,11 @@
+{
+  "table_id": "8.1.15",
+  "bnbc_reference": "Table 8.1.15",
+  "title": ": Symbols used for Electrical Drawings",
+  "part": 8,
+  "chapter": 1,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nSerial No.\nDescription\nSymbol\n1\nMain Distribution Board (MDB)\n2\nFloor Distribution Board (FDB)\n3\nDistribution Board (DB)\n4\nSub-distribution Board (SDB)\n5\nBranch Distribution Board (BDB)\n6\nSwitch Board (SB)\n7\nTelephone Outlet (PSTN)\n8\nTelephone Outlet (PABX)\n9\nChange over switch\n10\nEnergy meter\nE\n11\nAmmeter\nA\n12\nVoltmeter\nV\n13\nPower factor meter\nP.F\n14\nCircuit breaker\n15\nFuse\n16\nCeiling mounted Incandescent light fitting\n17\nWall mounted bracket light fitting\nChapter 1\nSerial No.\nDescription\nSymb"
+}

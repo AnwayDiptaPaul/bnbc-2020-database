@@ -1,0 +1,19 @@
+{
+  "table_id": "8.6.18",
+  "bnbc_reference": "Table 8.6.18",
+  "title": ": Minimum Width at Bottom of Trench",
+  "part": 8,
+  "chapter": 5,
+  "columns": [
+    "Diameter of pipe plus",
+    "0.45"
+  ],
+  "rows": [
+    [
+      "Note:",
+      "Trench top width shall not be less than 0.75 m for depths exceeding 0.9 m"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nDepth of Trench (m)\nWidth of Trench (m)\nUp to 1.2\nDiameter of pipe plus 0.4\nAbove 1.2\nDiameter of pipe plus  0.45\nNote:  Trench top width shall not be less than 0.75 m for depths exceeding 0.9 m\n6.12\nRefuse Chute System\n6.12.1\nAll buildings higher than 6-storeys shall be provided with refuse chute system\nfor transporting and collecting refuse from different floors in a sanitary way. The refuse\nshall be received from the respective floor through an inlet hopper in to the chute which\nconveys refu"
+}

@@ -1,0 +1,11 @@
+{
+  "table_id": "8.5.15",
+  "bnbc_reference": "Table 8.5.15",
+  "title": ":  Water Supply Protection for Hospital Fixtures",
+  "part": 8,
+  "chapter": 5,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nFixtures\nProtections Required\nAspirators\nBedpan washer\nBoiling type sterilizer\nExhaust condenser\nFlush floor drain\nHouse connection\nPressure sterilizer\nVacuum system\n(cleaning and fluid section)\nVacuum breaker\nVacuum breaker\nAir gap\nVacuum breaker\nVacuum breaker\nVacuum breaker\nVacuum breaker\nAir gap or vacuum breaker\nChapter 5"
+}

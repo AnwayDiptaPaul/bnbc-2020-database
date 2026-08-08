@@ -1,0 +1,19 @@
+{
+  "table_id": "8.5.1",
+  "bnbc_reference": "Table 8.5.1",
+  "title": "(d):  Domestic Water Requirements for Various other Occupancies and",
+  "part": 8,
+  "chapter": 5,
+  "columns": [
+    "Occupancy",
+    "Groups"
+  ],
+  "rows": [
+    [
+      "A5:",
+      "Hotels and Lodging Houses (per bed)"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nFacility Groups\nClass of\nOccupancy\nOccupancy  Groups\nFor Fulla\nFacilities\n(lpcd)\nFor\nRestricted\nFacilities\n(lpcd)\nA: Residential\nA4: Mess, Boarding Houses, Dormitories\nand Hostels\nA5:  Hotels and Lodging Houses (per bed)\n135\n300\n70\n135\nB: Educational\nFacilities\nB1: Educational Facilities up to Higher\nSecondary Levels\nB2: Facilities for Training and above\nHigher Secondary Education\nB3:  Pre-School Facilities\n70\n100\n50\n45\n70\n35\nC: Institutional\nC1:  Institution for Care of Children\nC2: Custodian "
+}

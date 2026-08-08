@@ -1,0 +1,19 @@
+{
+  "table_id": "8.5.16.",
+  "bnbc_reference": "Table 8.5.16.",
+  "title": "Table 8.5.16:  Distance from Potential Sources of Contamination",
+  "part": 8,
+  "chapter": 5,
+  "columns": [
+    "Pump floor drain of cast iron,",
+    "draining to ground"
+  ],
+  "rows": [
+    [
+      "Pump floor drain of cast iron,",
+      "draining to ground"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nPotential Source of Contamination\nDistance (m)\nPump floor drain of cast iron,  draining to ground\nsurface\n1\nSewer\n3\nFarm silo\n8\nSeptic tank\n8\nSubsurface pit/Seepage pit\n15\nSubsurface disposal field\n15\nBarnyard\n30\nPasture\n30\nChapter 5\n5.23.6\nWell Construction"
+}

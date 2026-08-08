@@ -1,0 +1,22 @@
+{
+  "table_id": "8.1.2",
+  "bnbc_reference": "Table 8.1.2",
+  "title": "9: Sizes of the Components of Lightning Protection Systems",
+  "part": 8,
+  "chapter": 1,
+  "columns": [
+    "Hard",
+    "drawn or",
+    "annealed",
+    "copper",
+    "rods for indirect driving"
+  ],
+  "rows": [
+    [
+      "Phosphor bronze for",
+      "hard ground"
+    ]
+  ],
+  "_confidence": "medium",
+  "_context": "\nComponents\nMinimum Dimensions\nAir terminals\nCopper strip\nCopper and phosphor bronze rods\nPVC insulated stranded annealed copper cable (minimum size)\n12 mm dia\n20 mm W x 3 mm T\n12 mm dia\n19 strands of 1.8 mm dia\nDown Conductors\nCopper strip\nPVC insulated stranded annealed copper cable (minimum size)\n20 mm x 3 mm\n19 strands of 1.8 mm dia\nEarth Electrode\nHard drawn copper rods for driving into soft ground\nHard  drawn or  annealed  copper  rods for indirect driving\nor laying in ground\nPhosphor bron"
+}

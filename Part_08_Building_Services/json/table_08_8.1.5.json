@@ -1,0 +1,19 @@
+{
+  "table_id": "8.1.5",
+  "bnbc_reference": "Table 8.1.5",
+  "title": ": Recommended Values of Illumination for Residential Buildings",
+  "part": 8,
+  "chapter": 1,
+  "columns": [
+    "e",
+    "(lux)"
+  ],
+  "rows": [
+    [
+      "e",
+      "(lux)"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nArea or Activity\nIlluminance\n(lux)\nArea or Activity\nIlluminanc\ne  (lux)\nDwelling Houses\nBedrooms\nGeneral\nBed-head, Dressing table\nKitchens\nDining rooms (tables)\nBathrooms\nGeneral\nShaving, make-up\nStairs\nLounges\nGarages & Porches\n70\n250\n200\n150\n100\n300\n100\n100\n100\nHotels\nEntrance halls\nReception and accounts\nDining rooms (tables)\nLounges\nBedrooms\nGeneral\nDressing tables, bed heads, etc.\nWriting rooms (tables)\nCorridors\nStairs\nLaundries\n150\n300\n150\n150\n100\n250\n300\n70\n100\n200\nChapter 1\nArea or Act"
+}

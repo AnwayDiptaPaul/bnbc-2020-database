@@ -1,0 +1,19 @@
+{
+  "table_id": "8.1.9",
+  "bnbc_reference": "Table 8.1.9",
+  "title": ": Recommended Values of Illumination for Business and Commercial",
+  "part": 8,
+  "chapter": 1,
+  "columns": [
+    "Illuminance",
+    "(lux)"
+  ],
+  "rows": [
+    [
+      "Illuminance",
+      "(lux)"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nBuildings\nArea or Activity\nIlluminance\n(lux)\nArea or Activity\nIlluminance  (lux)\nAirport Building\nReception areas (desks)\nBaggage, customs and immigration\nhalls\nCirculation areas, lounges\nBanks\nCounter, typing and accounting\nbook areas\nPublic areas, lobby\nOffices\nBook Binding\nPasting, punching and stitching\nBinding and folding and\nmiscellaneous machines\nFinishing, blocking and inlaying\nDental Surgeries\nWaiting rooms\nSurgeries\nGeneral\nChairs\nLaboratories\n300\n300\n200\n300\n150\n200\n200\n300\n300\n150\n3"
+}

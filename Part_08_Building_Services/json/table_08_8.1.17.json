@@ -1,0 +1,19 @@
+{
+  "table_id": "8.1.17",
+  "bnbc_reference": "Table 8.1.17",
+  "title": ":  Minimum Load Densities",
+  "part": 8,
+  "chapter": 1,
+  "columns": [
+    "Hotels, including apartment house (excluding any",
+    "provisions"
+  ],
+  "rows": [
+    [
+      "for",
+      "electric cooking)"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nType of Occupancy\nUnit Load\n(Watts/m2)\nNon A/C\nA/C\nResidence/ Dwelling : Single family\n20\n75\nResidence/ Dwelling : Multi-family (other than hotels)\n20\n75\nHospitals\n32\n80\nHotels, including apartment house (excluding any  provisions\nfor  electric cooking)\n24\n75\nOffice and commercial multi-storeyed buildings\n28\n75\nIndustrial building (excluding the loads for  machines)\n16\n-\nChapter 1\nType of Occupancy\nUnit Load\n(Watts/m2)\nNon A/C\nA/C\nDepartmental stores\n28\n75\nBanks\n20\n75\nRestaurants (excluding any"
+}

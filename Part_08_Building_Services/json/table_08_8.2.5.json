@@ -1,0 +1,19 @@
+{
+  "table_id": "8.2.5",
+  "bnbc_reference": "Table 8.2.5",
+  "title": ": Group 2 Refrigerants",
+  "part": 8,
+  "chapter": 2,
+  "columns": [
+    "Refrigerant",
+    "Designation"
+  ],
+  "rows": [
+    [
+      "(b) Group 1",
+      "Refrigerants"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nRefrigerant  Designation\nName\nR-40\nR-611\nR-717\nR-764\nMethyl chloride\nMethyl format\nAmmonia\nSulphur dioxide\n(b) Group 1  Refrigerants\n(i) Direct Systems: The maximum amount of Group 1 refrigerants in direct systems\nshall not exceed that set forth in "
+}

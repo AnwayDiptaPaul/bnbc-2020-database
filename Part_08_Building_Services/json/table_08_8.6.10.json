@@ -1,0 +1,11 @@
+{
+  "table_id": "8.6.10",
+  "bnbc_reference": "Table 8.6.10",
+  "title": ": Absorptive Capacity of Disposal Field and Seepage Pit",
+  "part": 8,
+  "chapter": 5,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nPercolation Test Rate in\nMinutes for Water to Fall 25\nmm\nEffluent Allowance Rate of Seepage Unit\n(l/m2/day)\nDisposal Field\nTrenches\n(bottom of trench)\nSeepage Pit (wall area)\n2 or less\n5\n10\n30\n60 (not recommended)\nover 60 (not suitable)\n128\n96\n68\n32\n16\n-\n172\n128\n92\n44\n24\n-\n"
+}

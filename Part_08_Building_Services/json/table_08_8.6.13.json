@@ -1,0 +1,11 @@
+{
+  "table_id": "8.6.13",
+  "bnbc_reference": "Table 8.6.13",
+  "title": ": Fixture Unit Values for Fixtures Based on Fixture Drain or Trap Size",
+  "part": 8,
+  "chapter": 5,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nFixture Drain on Trap Size\nFixture Unit Value\n30 mm and smaller\n40 mm\n50 mm\n65 mm\n75 mm\n100 mm\n1\n2\n3\n4\n5\n6\n6.10.2\nGradient and Size of Pipe\n6.10.2.1 The building drains and sewer shall be designed to discharge the peak\nsimultaneous load weight flowing half-full with a minimum self-cleansing velocity of\n0.75 m per second. However, flatter gradient may be used if required but the minimum\nvelocity shall not be less than 0.6 m per second. Again, it is undesirable to employ\ngradients giving a veloci"
+}

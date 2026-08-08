@@ -1,0 +1,11 @@
+{
+  "table_id": "8.5.7.",
+  "bnbc_reference": "Table 8.5.7.",
+  "title": "Table 8.5.7:  Minimum Pipe Size for Hot Water Piping",
+  "part": 8,
+  "chapter": 5,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nDifferent Pipes\nMinimum\nDiameter(mm)\nThe size of main distributing pipe that supplies hot water to the\nfixtures in the same storey of the hot water cylinder\n25\nThe size of main distributing pipe that supplies hot water to the\nfixtures not in the same storey of hot water cylinder\n19\nBranch pipe supplying hot water to the bath tub or shower\n19\nBranch pipe supplying hot water to the sink\n19\nBranch pipe supplying hot water to the wash basin\n19"
+}

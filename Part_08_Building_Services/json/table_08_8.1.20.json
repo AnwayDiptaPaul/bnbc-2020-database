@@ -1,0 +1,24 @@
+{
+  "table_id": "8.1.20",
+  "bnbc_reference": "Table 8.1.20",
+  "title": ": Recommended Fan Sizes in Rooms",
+  "part": 8,
+  "chapter": 1,
+  "columns": [
+    "Wiring for a",
+    "ceiling fan outlet from the switch board up to the ceiling fan outlet shall be"
+  ],
+  "rows": [
+    [
+      "bolts. Wiring for a",
+      "Wall mounted",
+      "bracket fan outlet from the switch board up to the"
+    ],
+    [
+      "Wall mounted",
+      "bracket fan outlet shall be done through pre-laid 18 mm dia PVC conduits"
+    ]
+  ],
+  "_confidence": "medium",
+  "_context": "\nWiring for a  ceiling fan outlet from the switch board up to the ceiling fan outlet shall be\ndone through pre-laid 18 mm dia PVC conduits using 1.5 mm2 PVC insulated 2 cables of\nBrown and Blue insulation. A high quality ceiling rose is to be installed at the ceiling fan\npoint for the termination of the wiring and the connection of the two wires of the Fan.\nA fan hook is required to be placed during casting of the roof. The fan hook is to be made\nusing a 12 mm dia MS rod having at least 600 mm o"
+}

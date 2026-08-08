@@ -1,0 +1,11 @@
+{
+  "table_id": "8.2.7",
+  "bnbc_reference": "Table 8.2.7",
+  "title": ": Maximum Allowable Contaminant Concentrations",
+  "part": 8,
+  "chapter": 2,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nContaminant\nAnnual\nAverage\n(arithmetic\nmean)\nµg/m3\nShort Term Level\n(not to be\nexceeded more\nthan once a year)\nµg/m3\nAveraging\nPeriod\n(hours)\nParticulates\n60\n150\n24\nSulfur oxides\n80\n400\n24\nCarbon monoxide\n20,000\n30,000\n8\nPhotochemical oxidant\n100\n500\n1\nHydrocarbons (not including\nmethane)\n1,800\n4,000\n3\nNitrogen oxides\n200\n500\n24\nOdour\n--\nEssentially\nunobjectionablea\n--\nNote:  a Judged unobjectionable by 60 percent of a panel of 10 untrained subjects.\n(b)\nProhibited Use of Recirculated Air:  Air"
+}

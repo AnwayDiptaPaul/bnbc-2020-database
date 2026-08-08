@@ -1,0 +1,11 @@
+{
+  "table_id": "8.6.5",
+  "bnbc_reference": "Table 8.6.5",
+  "title": ": Maximum Spacing of Access Points",
+  "part": 8,
+  "chapter": 5,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nFrom\nTo Access\nFitting\n(m)\nTo Junction\n(m)\nTo Inspection\nChamber\n(m)\nTo\nManhole\n(m)\nStart of external drain\n12\n-\n22\n45\nRodding eye\n22\n22\n45\n45\nAccess fitting †\n-\n12\n22\n22\nInspection chamber\n22\n22\n45\n45\nManhole\n22\n-\n45\n90\n†  higher spacing may be used for larger size access fitting.\n"
+}

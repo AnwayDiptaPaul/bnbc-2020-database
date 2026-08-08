@@ -1,0 +1,19 @@
+{
+  "table_id": "8.6.15",
+  "bnbc_reference": "Table 8.6.15",
+  "title": ": Maximum Number of Fixture Units that can be connected to Building",
+  "part": 8,
+  "chapter": 5,
+  "columns": [
+    "Portion* of the Building Drain or the Building Sewer for",
+    "Various"
+  ],
+  "rows": [
+    [
+      "Portion* of the Building Drain or the Building Sewer for",
+      "Various"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nDrains and Sewers\nDiameter\nof Pipe\n(mm)\nMaximum Number of Fixture Units that can be Connected to any\nPortion* of the Building Drain or the Building Sewer for  Various\nSlopes\n1/200\n1/100\n1/50\n1/25\n100\n150\n200\n250\n300\n375\n-\n-\n180\n700\n216\n840\n10000\n250\n12000\n*  Includes branches of building sewer\n6.11\nConstruction Relating to Conveyance of Sanitary Wastes\n6.11.1\nConveyance of Sanitary Wastes\n6.11.2\nThe layout of drainage systems shall be simple. Change of direction and\ngradient shall be minimized "
+}

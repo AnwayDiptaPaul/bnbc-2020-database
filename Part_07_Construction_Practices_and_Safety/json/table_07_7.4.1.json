@@ -1,0 +1,11 @@
+{
+  "table_id": "7.4.1",
+  "bnbc_reference": "Table 7.4.1",
+  "title": ": Type of Protection Required for Pedestrians near a Demolition Site",
+  "part": 7,
+  "chapter": 1,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nHorizontal Distance from\ninside of the Sidewalk to the\nStructure\nHeight* to Horizontal\nDistance Ratio\nType of Minimum\nProtection Required\nLess than 3 m\n6:1 or more\n4:1 - 6:1\n3:1 - 4:1\n2:1 - 3:1\nup to 2:1\nType A\nType B\nType C\nType D\nType E\n3 m - 4.5 m\n10:1 or more\n6:1 - 10:1\n4:1 - 6:1\n3:1 - 4:1\nup to 3:1\nType A\nType B\nType C\nType D\nType E\n4.5 m - 7.5 m\n15:1 or more\n10:1 - 15:1\n6:1 - 10:1\n4:1 - 6:1\nup to 4:1\nType A\nType B\nType C\nType D\nType E\n7.5 m - 12 m\n15:1 or more\n10:1 - 15:1\n6:1 - 10:1\nup to"
+}

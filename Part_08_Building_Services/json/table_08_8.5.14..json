@@ -1,0 +1,19 @@
+{
+  "table_id": "8.5.14.",
+  "bnbc_reference": "Table 8.5.14.",
+  "title": "Table 8.5.14:  Hanger Spacing",
+  "part": 8,
+  "chapter": 5,
+  "columns": [
+    "Max.",
+    "Horizontal"
+  ],
+  "rows": [
+    [
+      "Max.",
+      "Horizontal"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nPiping Material\nMax.  Horizontal\nSpacing (m)\nMax. Vertical\nSpacing (m)\nGalvanized steel pipe\n3.5\n4.5\nCopper pipe or copper-alloy tubing > 38 mm\ndiameter\n3.5\n3.0\nCopper pipe or copper-alloy tubing < 38 mm\ndiameter\n2.0\n3.0\nPVC pipe and tubing\n1.0\n1.0\nAluminum tubing\n3.0\n4.5\nBrass pipe\n3.0\n3.0"
+}

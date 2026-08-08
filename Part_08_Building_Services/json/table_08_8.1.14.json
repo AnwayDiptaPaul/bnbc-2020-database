@@ -1,0 +1,19 @@
+{
+  "table_id": "8.1.14",
+  "bnbc_reference": "Table 8.1.14",
+  "title": ":  Recommended Values",
+  "part": 8,
+  "chapter": 1,
+  "columns": [
+    "Town / City",
+    "Area"
+  ],
+  "rows": [
+    [
+      "Town / City",
+      "Area"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nof Illumination for\nRoads\nArea or Activity\nIlluminance\n(lux)\nArea or Activity\nIlluminance\n(lux)\nOutdoor Car Parking Lot\nAirport Apron\nContainer Yard\nJetty\n100\n200\n200\n250\nRoads inside a Housing\nArea\nRoads in a Congested\nTown / City  Area\nWide Roads with dividers\nAvenues\n50- 100\n50- 100\n100 - 120\n100 - 120\nChapter 1\n(d) Semi-indirect fittings: Semi-indirect fittings shall be used when a comfortable\nbrightness ratio between the ceiling and the luminaire is desirable but an\nefficiency of illuminat"
+}

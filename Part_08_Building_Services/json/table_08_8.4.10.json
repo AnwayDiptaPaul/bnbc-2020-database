@@ -1,0 +1,11 @@
+{
+  "table_id": "8.4.10",
+  "bnbc_reference": "Table 8.4.10",
+  "title": "Table 8.4.10: Operating Speeds of Moving Walk (Based on 1000 mm Nominal Tread",
+  "part": 8,
+  "chapter": 4,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nWidth)*\nIncline of Ramp on Slope\nMaximum Speed with\nLevel Entrance and Exit\n(m/s)\nMaximum Speed with\nSloping Entrance and Exit\n(m/s)\n0 to 3⁰\n0.9\n0.9\nOver 3 to 5⁰\n0.9\n0.8\nOver 5 to 8⁰\n0.9\n0.7\nOver 8 to 12⁰\n0.7\n0.65\nOver 12 to 15⁰\n0.7\n0.63\n* Higher tread width may be allowable on horizontal runs.\n4.5.2\nBalustrades\n(a) Moving walks shall be provided on each side with solid balustrades. On the\ntread way side the balustrades shall be smooth and substantially flush.\n(b) The width between balustrades,"
+}

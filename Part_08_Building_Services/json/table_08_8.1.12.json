@@ -1,0 +1,19 @@
+{
+  "table_id": "8.1.12",
+  "bnbc_reference": "Table 8.1.12",
+  "title": ":  Recommended Values",
+  "part": 8,
+  "chapter": 1,
+  "columns": [
+    "ce",
+    "(lux)"
+  ],
+  "rows": [
+    [
+      "e",
+      "(lux)"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nof Illumination for\nOutdoor Stadiums\nColour TV\nbroadcasting\nArea or Activity\nIlluminan\nce  (lux)\nArea or Activity\nIlluminanc\ne  (lux)\nStorage Rooms of Ware\nHouse\nInactive\nRough bulky\nMedium\nFine\n50\n50\n100\n250\nFootball Stadium\nCricket Stadium\n"
+}

@@ -1,0 +1,19 @@
+{
+  "table_id": "8.1.16",
+  "bnbc_reference": "Table 8.1.16",
+  "title": ": Estimated Load for Different Fittings/Fixtures",
+  "part": 8,
+  "chapter": 1,
+  "columns": [
+    "Fluorescent",
+    "lamp with"
+  ],
+  "rows": [
+    [
+      "Fluorescent",
+      "lamp with"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nType of Fitting/Fixture\nRatings\nin Watts\nType of Fitting/Fixture\nRatings\nin Watts\nCFL\n5-65\n15 A Socket outlets\nLED and Solar Panel Powered\nLED Security /Street Lights\n10-60\nMicrowave Oven (domestic)\n1200-\nFluorescent  lamp with\naccessories:\nWashing machine (domestic)\n350-500\nNominal length 600 mm\n20\nTelevision (medium size)\n120-200\nChapter 1\nType of Fitting/Fixture\nRatings\nin Watts\nType of Fitting/Fixture\nRatings\nin Watts\nNominal length 1200 mm\n40\nComputer (without printer)\n200\nPhoto copiers\n12"
+}

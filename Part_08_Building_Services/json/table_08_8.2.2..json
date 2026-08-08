@@ -1,0 +1,11 @@
+{
+  "table_id": "8.2.2.",
+  "bnbc_reference": "Table 8.2.2.",
+  "title": "Selection of outside design conditions from this table shall be based on",
+  "part": 8,
+  "chapter": 2,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nrequirements of the application and the percent of time the outside air temperature is\nallowed to exceed the outside design conditions.\nChapter 2\n(b) In case of stringent design conditions a meteorologist with experience in applied\nclimatology may be consulted to evaluate conditions such as; the formation of heat\nsinks in urban areas; the duration of extreme temperatures; project sites located\nremotely from reporting stations."
+}

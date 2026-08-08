@@ -1,0 +1,20 @@
+{
+  "table_id": "8.2.10",
+  "bnbc_reference": "Table 8.2.10",
+  "title": ": Minimum Performance of Unitary Air Conditioning Equipment",
+  "part": 8,
+  "chapter": 2,
+  "columns": [
+    "≥19",
+    "and <40 kW (≥5.4 and <11 tons)"
+  ],
+  "rows": [
+    [
+      "≥40",
+      "to <70 kW (≥11 to",
+      "<20 tons)"
+    ]
+  ],
+  "_confidence": "medium",
+  "_context": "\nEquipment Class and Size Category\nMinimum\nCOP\nMinimum\nIPLV\nTest\nStandard\nUnitary air cooled air conditioner\n≥19  and <40 kW (≥5.4 and <11 tons)\n3.08\n--\nARI 210/240\n≥40  to <70 kW (≥11 to  <20 tons)\n3.08\n--\nARI 340/360\n≥70 kW (≥20 tons)\n2.93\n2.99\nARI 340/360\nUnitary water cooled air conditioner\n<19 kW (<5.4 tons)\n4.10\n--\nARI 210/240\n≥19  and <40 kW (≥5.4 and   <11 tons)\n4.10\n--\nARI 210/240\n≥<40 kW (≥11 tons)\n3.22\n3.02\nARI 210/240\n"
+}

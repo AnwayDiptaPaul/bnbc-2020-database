@@ -1,0 +1,11 @@
+{
+  "table_id": "8.3.4",
+  "bnbc_reference": "Table 8.3.4",
+  "title": ": Airborne and Impact Sound Insulation of Floor-Ceiling between",
+  "part": 8,
+  "chapter": 3,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nDwelling Units\nApt. A\nApt. B\nGrade II\nSTC\nGrade II\nIIC\nApt. A\nApt. B\nGrade II\nSTC\nGrade II\nIIC\nBedroom\nabove Bedroom\n52\n52\nLiving room above\nKitchenc,e\n52\n52\nLiving room\nabove Bedrooma\n54\n57\nKitchen\nabove\nKitchenc\n50\n52\nKitchenb\nabove Bedrooma,c\n55\n62\nBathroom\nabove\nKitchena,c\n52\n52\nFamily room\nabove Bedrooma,d\n56\n62\nFamily room above\nKitchena,c,d\n52\n58\nCorridor\nabove Bedrooma\n52\n62\nCorridor\nabove\nKitchena,c\n48\n52\nBedroom\nabove Living roome\n54\n52\nBedroom\nabove\nFamily roome\n56\n48\nLiving room\nabo"
+}

@@ -1,0 +1,19 @@
+{
+  "table_id": "8.1.8",
+  "bnbc_reference": "Table 8.1.8",
+  "title": ": Recommended Values of Illumination for Assembly Buildings",
+  "part": 8,
+  "chapter": 1,
+  "columns": [
+    "Illuminance",
+    "(lux)"
+  ],
+  "rows": [
+    [
+      "Illuminance",
+      "(lux)"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nArea or Activity\nIlluminance  (lux)\nArea or Activity\nIlluminance  (lux)\nCinemas\nFoyers\nAuditorium\nCorridors\nStairs\n150\n100\n100\n150\nTheatres\nFoyers\nAuditorium\nCorridors\nStairs\n150\n70\n90\n150\nLibraries\nShelves (stacks)\nReading rooms (newspapers and\nmagazines)\nReading tables\nBook repair and binding\nCataloguing, sorting and stock rooms\nMuseums and Art Galleries\nMuseums\nGeneral\nDisplays\nArt galleries\nGeneral\nPaintings\n150\n200\n300\n300\n150\n200\nspecial lighting\n250\n250\nIndoor Sports Centre\nHalls\nSwimmin"
+}

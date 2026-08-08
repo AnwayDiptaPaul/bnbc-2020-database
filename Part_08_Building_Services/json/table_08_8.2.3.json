@@ -1,0 +1,11 @@
+{
+  "table_id": "8.2.3",
+  "bnbc_reference": "Table 8.2.3",
+  "title": ":  Minimum Ventilation Rates for Air Conditioned Spaces",
+  "part": 8,
+  "chapter": 2,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nOccupancy Classification\nOutdoor\nAirflow Rate in\nBreathing\nZone\nOutdoor\nAirflow\nRate in\nBreathing\nZonea\nDefault\nOccupant\nDensitya\nExhaust\nAirflow\nRatea\nl/s per person l/s per m2\nNo./100 m2\nl/s per m2\nCorrectional facilities\nCells without plumbing\nfixtures\n2.5\n0.6\n25\n-\nCells with plumbing fixturesg\n2.5\n0.6\n25\n5.0\nDining halls\n(see food and beverage service)\nGuard stations\n2.5\n0.3\n15\n-\nDay room\n2.5\n0.3\n30\n-\nBooking/waiting\n3.75\n0.3\n50\n-\nChapter 2\nOccupancy Classification\nOutdoor\nAirflow Rate in\nB"
+}

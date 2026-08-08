@@ -1,0 +1,11 @@
+{
+  "table_id": "8.2.1.",
+  "bnbc_reference": "Table 8.2.1.",
+  "title": "Table 8.2.1:   Inside Design Conditions of Some of Applications for Summera",
+  "part": 8,
+  "chapter": 2,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nSl. No.\nUse Category of Space\nIndoor Design Conditions\nDry Bulb\nTemperature (oC)\nRelative\nHumidity (%)\n1.\nRestaurants, Cafeteria and Dining Hall\n23 ~ 26\n55 ~ 60\n2.\nKitchens\n28 ~ 31\n--\n3.\nOffice buildings\n23 ~ 26\n50 ~ 60\n4.\nBank/Insurance/Commercial building\n23 ~ 26\n45 ~ 55\n5.\nDepartmental stores\n23 ~ 26\n50 ~ 60\n6.\nHotel guest rooms\n23 ~ 26\n50 ~ 60\n7.\nBall room/meeting room\n23 ~ 26\n40 ~ 60\n8.\nClass rooms\n23 ~ 26\n50 ~ 60\n9.\nAuditoriums\n23 ~ 26\n50 ~ 60\n10.\nRecovery rooms\n24 ~ 26\n45 ~ 55\n11.\nPatien"
+}

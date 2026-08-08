@@ -1,0 +1,23 @@
+{
+  "table_id": "8.4.4",
+  "bnbc_reference": "Table 8.4.4",
+  "title": ": Recommended Dimensions of Goods Lifts and Lift Wells",
+  "part": 8,
+  "chapter": 4,
+  "columns": [
+    "(i)",
+    "The width of lift machine room shall be equal to be lift well width subject to a"
+  ],
+  "rows": [
+    [
+      "(ii)",
+      "Clear entrance width is based on vertical lifting car door and vertical bi-parting"
+    ],
+    [
+      "(iii)",
+      "All dimensions given above are recommended dimensions primarily for"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nLoad (Kg)\nCar Dimensions (mm)\nLift Well Dimensions\n(mm)\nEntrance\nSize (mm)\nWidth\nDepth\nWidth\nDepth\n500\nNotes :\n(i)  The width of lift machine room shall be equal to be lift well width subject to a\nminimum of 2500 mm.\n(ii)   Clear entrance width is based on vertical lifting car door and vertical bi-parting\nlanding doors. For collapsible mid-bar doors the clear entrance width will be\nreduced by 200 mm (maximum 1800 mm).\n(iii)  All dimensions given above are recommended dimensions primarily for\nar"
+}

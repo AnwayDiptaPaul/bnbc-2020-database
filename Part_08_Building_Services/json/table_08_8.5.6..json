@@ -1,0 +1,11 @@
+{
+  "table_id": "8.5.6.",
+  "bnbc_reference": "Table 8.5.6.",
+  "title": "O.8",
+  "part": 8,
+  "chapter": 5,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nThe average pressure drop in kPa per meter of equivalent pipe length may be\ncomputed as follows:\nL\nf\nH\nP\nF p\n/\n)\n807\n.\n9\n(\n\n\n\n\n8.O.1)\nWhere,\np\nF = Average available pressure loss (kPa) per meter of equivalent length of pipe\nP  = Pressure (kPa) in the water main or zero for overhead gravity storage tank.\nH = Height (m) of the highest fixture above the water main or difference (m) in\nelevation between storage tank and the fixture under consideration.\nAppendix\nf  = Pressure loss (kPa) through "
+}

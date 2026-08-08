@@ -1,0 +1,11 @@
+{
+  "table_id": "8.",
+  "bnbc_reference": "Table 8.",
+  "title": "S.1: Reduction factors for various occupancies.",
+  "part": 8,
+  "chapter": 5,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nType of Development\nFactor\n(i)\nChurch:\nHall-Seating capacity\nResidential Staff\n0.01\n1.00\n(ii)\nSchool:\nPrimary & Secondary School-student and staff\npopulation per session\n0.25\n(iii) School:\nInstitution of Higher Learning-Total enrolment and\nstaff\n0.25\n(iv) Community Centre:\nStaff/worker\nResident\nKindergarten-student and staff population per session\nMaximum gathering\n0.25\n1.00\n0.08\n0.01\nAppendix\nType of Development\nFactor\n(v)\nFactory:\nOne shift per 24 hours\nTwo/three sifts per 24 hours\n0.50\n1.00\n"
+}

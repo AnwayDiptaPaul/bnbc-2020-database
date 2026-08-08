@@ -1,0 +1,23 @@
+{
+  "table_id": "8.6.12.",
+  "bnbc_reference": "Table 8.6.12.",
+  "title": "Table 8.6.12: Fixture Units for Different Sanitary Appliances or Groups",
+  "part": 8,
+  "chapter": 5,
+  "columns": [
+    "bath",
+    "tub or shower stall :"
+  ],
+  "rows": [
+    [
+      "a)",
+      "Flush Tank water closet"
+    ],
+    [
+      "b)",
+      "Flush-valve water closet"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nType of Fixture\nFixture Unit Value\nas Load Factor\nOne bathroom group consisting of water closet, wash basin and\nbath  tub or shower stall :\na)  Flush Tank water closet\n3\nb)  Flush-valve water closet\n6\nBathtub*\n2\nBidet\n2\nChapter 6\nType of Fixture\nFixture Unit Value\nas Load Factor\nCombination sink and tray (drain board)\n2\nDrinking fountain\n0.5\nFloor traps†\n1\nKitchen sink, domestic\n2\nWash basin, ordinary‡\n1\nWash basin, surgeon's\n2\nShower stall, domestic\n2\nShower (group) per head\n3\nUrinal, wall hun"
+}

@@ -1,0 +1,19 @@
+{
+  "table_id": "8.1.17.",
+  "bnbc_reference": "Table 8.1.17.",
+  "title": "Chapter 1",
+  "part": 8,
+  "chapter": 1,
+  "columns": [
+    "category, although there may be other items which may be included under",
+    "electrical"
+  ],
+  "rows": [
+    [
+      "category, although there may be other items which may be included under",
+      "electrical"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\n1.3.3\nFittings, Fixtures and Accessories\nSwitch boards with back boxes and cover plates, ceiling roses, socket outlets with back\nboxes, plugs, light fittings, fans, pull boxes with cover plates have been put in this\ncategory, although there may be other items which may be included under  electrical\naccessories related to electrical and electronic installations in buildings."
+}

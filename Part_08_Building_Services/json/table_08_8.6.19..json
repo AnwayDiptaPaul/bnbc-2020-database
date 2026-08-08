@@ -1,0 +1,11 @@
+{
+  "table_id": "8.6.19.",
+  "bnbc_reference": "Table 8.6.19.",
+  "title": "Table 8.6.19: Minimum Vent Stack Size in Bedpan Drainage",
+  "part": 8,
+  "chapter": 5,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nNo of Bedpan Washer\nDiameter (mm)\nUp to 3 bedpan washers at different floors\n4 to 6 bedpan washers\n7 to 12 bedpan washers\n50\n75\n100\nChapter 6\nThe bottom of the bedpan local vent stack (except for one bedpan washer) shall be\ndrained indirectly into sanitary drainage system through traps. The size of the trap and\nconnecting pipe shall be at least the size of the vent stack. At least 6 mm diameter water\nsupply piping shall be taken from each flush supply of each bedpan washer on the\ndischarge side"
+}

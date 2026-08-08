@@ -1,0 +1,19 @@
+{
+  "table_id": "8.5.5.",
+  "bnbc_reference": "Table 8.5.5.",
+  "title": "Chapter 5",
+  "part": 8,
+  "chapter": 5,
+  "columns": [
+    "General Features",
+    "of Distribution System Design"
+  ],
+  "rows": [
+    [
+      "General Features",
+      "of Distribution System Design"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\n5.10.3\nPipe Size Computation\nCommercially available standard sizes of pipes are only to be used against the sizes\narrived at by actual design. Therefore, several empirical formulae are used, even though\nthey give less accurate results. The Hazen and William’s formula and the charts based on\nthe same may be used without any risk of inaccuracy in view of the fact that the pipes\nnormally to be used for water supply are of smaller sizes. For nomogram of Hazen and\nWilliam’s equation see Appendix O.\n"
+}

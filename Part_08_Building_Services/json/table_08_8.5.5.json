@@ -1,0 +1,11 @@
+{
+  "table_id": "8.5.5",
+  "bnbc_reference": "Table 8.5.5",
+  "title": ":  Probable Simultaneous Demand",
+  "part": 8,
+  "chapter": 5,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nNo. of\nFixture\nUnits\nSystem with Flush Tanks\nDemand (Based on Fixture\nUnits)\nSystem with Flush Valves\nDemand (After Hunter)\nUnit Rate of\nFIow1)\nFlow in\nLitre/Minute\nUnit Rate of\nFIow1)\nFlow\n(Litre/Minute)\n20\n40\n60\n80\n100\n120\n140\n160\n180\n200\n220\n240\n300\n400\n500\n600\n700\n800\n900\n2.0\n3.3\n4.3\n5.1\n5.7\n6.4\n7.1\n7.6\n8.2\n8.6\n9.2\n9.6\n11.4\n14.0\n16.7\n19.4\n21.4\n24.1\n26.1\n28.1\n56.6\n93.4\n121.8\n144.4\n161.4\n181.2\n201.0\n215.2\n232.2\n243.5\n260.5\n271.8\n322.8\n396.4\n472.9\n549.3\n606.0\n682.4\n739.0\n795.7\n4.7\n6.3\n7.4\n8.3\n"
+}

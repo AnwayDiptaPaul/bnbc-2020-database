@@ -1,0 +1,11 @@
+{
+  "table_id": "8.1.21",
+  "bnbc_reference": "Table 8.1.21",
+  "title": ": New introduced Colour Codes of Cables Following IEC Standards",
+  "part": 8,
+  "chapter": 1,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nItem\nPre-1977 IEE\nPre-2004 IEE\nCurrent IEC\nProtective earth (PE)\nGreen\nGreen/yellow\nbi-colour\nGreen/yellow\nbi-colour\nNeutral (N)\nBlack\nBlack\nBlue\nSingle phase: Line (L)\nThree-phase: L1\nRed\nRed\nBrown\nThree-phase: L2\nYellow\nYellow\nBlack\nThree-phase: L3\nBlue\nBlue\nGrey\nFigure 8.1.1 Existing and harmonised colour code by IEC recommended for use in\nBangladesh.\nThe above mentioned colour coding must be indicated in the design drawing. This should\nalso be mentioned in the specification.\n(p) Balancing o"
+}

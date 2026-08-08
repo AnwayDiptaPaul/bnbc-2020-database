@@ -1,0 +1,19 @@
+{
+  "table_id": "8.1.7",
+  "bnbc_reference": "Table 8.1.7",
+  "title": ": Recommended Values of Illumination for Health Care Buildings",
+  "part": 8,
+  "chapter": 1,
+  "columns": [
+    "Illuminance",
+    "(lux)"
+  ],
+  "rows": [
+    [
+      "Illuminance",
+      "(lux)"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nArea or Activity\nIlluminance  (lux)\nArea or Activity\nIlluminance  (lux)\nHospitals and Clinics\nReception and waiting rooms\nOutpatient department\nWards\nGeneral\nBeds\nOperating theatres\nGeneral\nTables (with adjustable\noperation lamp lighting)\nMinor\nMajor\n150\n150\n150\n150\n300\nHospitals and Clinics (contd.)\nDoctor's examination rooms\nRadiology departments\nCasualty\nStairs and corridors\nDispensaries\n150\n100\n150\n100\n250\nChapter 1\n"
+}

@@ -1,0 +1,11 @@
+{
+  "table_id": "8.7.1",
+  "bnbc_reference": "Table 8.7.1",
+  "title": ": Contact Time with Chlorine",
+  "part": 8,
+  "chapter": 5,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nWater\npH\nWater temperature\n50oF or warmer\n45oF\n40oF or colder\nContact time in minutes\n6.0\n3\n4\n5\n6.5\n4\n5\n6\n7.0\n8\n10\n12\n7.5\n12\n15\n18\n8.0\n16\n20\n24\n7.8.9\nDetermining Volume of Rainwater Storage\nDetermining volume of rainwater storage\nRainwater storage volume in m3 =\nFloating\nD\nN\nD\np\n\n\n\n/\nWhere,     D =  Rainwater demand In liter per capita per day.\nN  =   Population number.\np\nD = Number of days for which water will be stored. Consider 90 days for\ndrinking, cooking, utensils cleansing, bathing an"
+}
