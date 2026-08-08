@@ -1,0 +1,19 @@
+{
+  "table_id": "4.4.8",
+  "bnbc_reference": "Table 4.4.8",
+  "title": ": Piping for Sprinkler System",
+  "part": 4,
+  "chapter": 4,
+  "columns": [
+    "ASTM",
+    "A53, ASTM A120, ASTM A135, ASTM A795"
+  ],
+  "rows": [
+    [
+      "ASTM",
+      "A53, ASTM A120, ASTM A135, ASTM A795"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nMaterial\nStandard\nCopper and Copper-Alloy\nSteel\nASTM B32, ASTM B75, ASTM B88, ASTM B25,\nANSI B36\nASTM  A53, ASTM A120, ASTM A135, ASTM A795"
+}

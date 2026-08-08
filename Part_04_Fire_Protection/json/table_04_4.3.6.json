@@ -1,0 +1,19 @@
+{
+  "table_id": "4.3.6",
+  "bnbc_reference": "Table 4.3.6",
+  "title": "B",
+  "part": 4,
+  "chapter": 3,
+  "columns": [
+    "Occupant load more than 130",
+    "but not more 250"
+  ],
+  "rows": [
+    [
+      "Note:",
+      "The required number of stairways shall be determined by dividing the calculated"
+    ]
+  ],
+  "_confidence": "high",
+  "_context": "\nEducational\nOccupant load up to 130\nOccupant load more than 130  but not more 250\nD\nHospital\nPatient area\nStaff area\nI\nAssembly: I1, I2, I3, I4, I5\nAs per provisions of this Code.\nAll others\nAs per provisions of this Code.\nNote:  The required number of stairways shall be determined by dividing the calculated\ntotal widths of stairways as per sections 3.5, 3.6 and "
+}

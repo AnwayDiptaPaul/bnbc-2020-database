@@ -1,0 +1,11 @@
+{
+  "table_id": "4.4.2",
+  "bnbc_reference": "Table 4.4.2",
+  "title": ": Fire Pump Data",
+  "part": 4,
+  "chapter": 4,
+  "columns": [],
+  "rows": [],
+  "_confidence": "low",
+  "_context": "\nPump Rating\nMinimum Pipe Sizes (Nominal)\nlitre/min (gpm) Discharge,\nmm (inch)\n946 (250)\n75 (3)\n1136 (300)\n100 (4)\n1514 (400)\n100 (4)\n1703 (450)\n125 (5)\n1892 (500)\n125 (5)\n2839 (750)\n150 (6)\n3785 (1000)\n150 (6)\n4731 (1250)\n200 (8)\n5677 (1500)\n200 (8)"
+}
